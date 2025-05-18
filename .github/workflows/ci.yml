@@ -34,15 +34,7 @@ jobs:
     - name: 🏗 Pack UiPath Project
       run: uipath project pack --input-folder . --output-folder output --debug
 
-    - name: 📁 Afficher le contenu du dossier ./output (vérification)
-      shell: powershell
-      run: |
-        if (Test-Path "./output") {
-          Get-ChildItem ./output -Recurse
-        } else {
-          Write-Host "⚠️ Le dossier ./output n'existe pas. Le pack a échoué."
-          exit 1
-        }
+  
 
     - name: ☁️ Upload Package as Artifact
       if: success()
