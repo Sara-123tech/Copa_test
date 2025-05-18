@@ -13,17 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download UiPath CLI
+      - name: Télécharger et extraire UiPath CLI
         run: |
-          Invoke-WebRequest -Uri "https://download.uipath.com/cli/uipath-win-x64.exe" -OutFile "uipath.exe"
+          Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipathcli.zip"
+          Expand-Archive -Path "uipathcli.zip" -DestinationPath "."
 
-
-      - name: Authenticate with UiPath
+      - name: Authentification avec UiPath
         run: |
-          ./uipath.exe auth login ^
-            --client-id "d5c8b7cc-b11c-4691-bb60-f7453855610c" ^
-            --client-secret ")Uglg4o*1ZTKuzHO" ^
-            --account "sarabeji123" ^
-            --tenant "DefaultTenant" ^
-            --profile "gh-profile"
+          ./uipath.exe auth login `
+            --client-id "d5c8b7cc-b11c-4691-bb60-f7453855610c" `
+            --client-secret ")Uglg4o*1ZTKuzHO" `
+            --account "sarabeji123" `
+            --tenant "DefaultTenant" `
+            --profile "ci-profile"
 
+      - name: Lancer le job UiPath
+        run: |
+          ./uipath.exe automation jobs start `
+            --folder-path "Default" `
+            --process-name "copa_Test" `
+            --profile "ci-profile"
