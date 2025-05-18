@@ -15,7 +15,8 @@ jobs:
 
       - name: Download UiPath CLI
         run: |
-          Invoke-WebRequest -Uri "https://uipathcli.blob.core.windows.net/public/uipath-win-x64.exe" -OutFile "uipath.exe"
+          Invoke-WebRequest -Uri "https://download.uipath.com/cli/uipath-win-x64.exe" -OutFile "uipath.exe"
+
 
       - name: Authenticate with UiPath
         run: |
@@ -26,9 +27,3 @@ jobs:
             --tenant "DefaultTenant" ^
             --profile "gh-profile"
 
-      - name: Start UiPath Job
-        run: |
-          ./uipath.exe automation jobs start ^
-            --folder-path "Default" ^
-            --process-name "Copa" ^
-            --profile "gh-profile"
