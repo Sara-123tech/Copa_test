@@ -17,15 +17,18 @@ jobs:
     - name: 🔧 Download and Setup UiPath CLI
       shell: powershell
       run: |
+        # Télécharger l'archive UiPath CLI
         Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
+        # Extraire dans un dossier
         Expand-Archive -Path uipcli.zip -DestinationPath uipcli
+        # Ajouter le dossier uipcli au PATH pour que les commandes soient reconnues
         echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
     - name: ✅ Check UiPath CLI version
       run: ./uipcli/uipath.exe version
 
     - name: 📁 Pack UiPath Project
-      run: ./uipcli/uipath.exe pack "project.json" --output ./output
+      run: ./uipcli/uipath.exe project pack --input-folder . --output-folder ./output
 
     - name: ☁️ Upload Package as Artifact
       uses: actions/upload-artifact@v4
