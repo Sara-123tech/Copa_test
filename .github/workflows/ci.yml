@@ -32,7 +32,7 @@ jobs:
       run: dir ./project.json
 
     - name: 📂 Créer le dossier ./output s'il n'existe pas
-       run: mkdir output
+      run: mkdir output
 
     - name: 🏗 Pack UiPath Project (dossier Copa)
       run: uipath project pack --input-folder ./Copa --output-folder ./output --debug
