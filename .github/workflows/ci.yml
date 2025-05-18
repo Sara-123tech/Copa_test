@@ -1,41 +1,46 @@
-name: Run UiPath Job
+name: UiPath CI Pipeline
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
-  run-uipath-job:
+  build-and-deploy:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Download and extract UiPath CLI
-        run: |
-          Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipathcli.zip"
-          Expand-Archive -Path "uipathcli.zip" -DestinationPath "."
+    - name: Download and Setup UiPath CLI
+      run: |
+        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
+        Expand-Archive uipcli.zip -DestinationPath uipcli
+        $env:PATH += ";$PWD\uipcli"
+        echo "$PWD\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
-      - name: Authenticate with UiPath
-        run: |
-          ./uipath.exe auth login `
-            --client-id "bb0ca32f-3861-4fbf-9d79-a28ed5488d3d" `
-            --client-secret "7r2TgKjr7PL6~XJ(" `
-            --account "sara beji" `
-            --tenant "DefaultTenant" `
-            --profile "ci-profile"
-        env:
-          UIPATH_CLIENT_ID: bb0ca32f-3861-4fbf-9d79-a28ed5488d3d
-          UIPATH_CLIENT_SECRET: 7r2TgKjr7PL6~XJ(
-          UIPATH_ACCOUNT: sara beji
-          UIPATH_TENANT: DefaultTenant
+    - name: Check UiPath CLI Version
+      run: uipcli version
 
-      - name: Start UiPath Job
-        run: |
-          ./uipath.exe automation jobs start `
-            --folder-path "Default" `
-            --process-name "copa_Test" `
-            --machine-name "DESKTOP-AU06I1G" `  # Remplacez par le nom de votre machine
-            --profile "ci-profile"
+    - name: Pack UiPath project
+      run: uipcli pack "project.json" --output ./output
+
+    - name: Upload Package as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: uipath-package
+        path: ./output/*.nupkg
+
+    - name: Authenticate to UiPath Orchestrator
+      run: |
+        uipcli login ^
+          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
+          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
+          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
+          --tenant "${{ secrets.UIPATH_TENANT }}" ^
+          --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
+
+    - name: Push Package to Orchestrator
+      run: uipcli push ./output/*.nupkg
