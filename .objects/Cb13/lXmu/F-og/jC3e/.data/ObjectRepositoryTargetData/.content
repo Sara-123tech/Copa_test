@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IV58FtaZHU6QntOpK4NgEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme" CVScreenId="f7440129-f0bc-4b3d-8dac-65e2c283354a" CvElementArea="1166, 568, 122, 43" CvTextArea="1190, 582, 49, 12" CvTextArgument="Suivant" CvType="Button" DesignTimeRectangle="1168, 570, 118, 39" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white shadow-none rounded-full px-4 py-2 css-1hw9j7s' aaname='Suivant' check:innerText='Suivant' /&gt;" Guid="b2f6f1c0-4af2-4a6d-b3ff-ec0ad7b452f2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3bf6aae878586b9f171cd1cf4cf8d6a5.png" xmlns="">0rRz-w3d76UupL1HRGR6gBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

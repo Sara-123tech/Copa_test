@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m8jMgmgMWU6BNDkg37n9dQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" CVScreenId="655682a7-c085-421e-b5c8-06663f987bb5" CvElementArea="876, 643, 175, 55" CvTextArea="991, 663, 27, 15" CvTextArgument="Oui" CvType="Button" DesignTimeRectangle="967, 651, 75, 40" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='sd-boolean__label' idx='2' parentid='sq_190' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='sd-boolean__label' type='' parentid='sq_190' tag='SPAN' aaname='' check:innerText='Oui' /&gt;" Guid="65d2e9a8-3dfb-4feb-bd88-953674cc9927" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="655682a7-c085-421e-b5c8-06663f987bb5" CvTextArea="879, 534, 342, 20" CvTextArgument="Investissement dans la résilience climatique" CvType="Text" DesignTimeRectangle="880, 532, 340, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h5&amp;gt;span' idx='10' isleaf='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='sv-string-viewer sv-string-viewer--multiline' isleaf='1' tag='SPAN' aaname='Investissement dans la résilience climatique' check:innerText='Investissement dans la résilience climatique' /&gt;" Guid="e6a87034-9963-4755-9549-c726a1748687" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="390a007f35402b4358efcbe932701840.png" xmlns="">009TafwedFkK6NarbfYk0Pw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

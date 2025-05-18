@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SqYPaszXr0e6ySlJgrCGFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com" CVScreenId="b72b3ac9-87d6-4b86-b997-3aa6dc9d77a4" CvTextArea="510, 482, 342, 26" CvType="AnyWordGroup" DesignTimeRectangle="512, 478, 671, 32" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='AppelACandidature' tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='AppelACandidature' tag='H3' type='' class='text-xl lg:text-2xl font-semibold my-1' /&gt;" Guid="981afdc2-f58f-47e2-a220-c4013a8fb590" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b72b3ac9-87d6-4b86-b997-3aa6dc9d77a4" CvTextArea="496, 344, 384, 42" CvTextArgument="Appels à candidature" CvType="Text" DesignTimeRectangle="497, 339, 382, 46" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='AppelACandidature' tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='AppelACandidature' tag='H1' type='' class='text[#2F2F2F] text-center section-title' aaname='Appels à candidature' check:innerText='Appels à candidature' /&gt;" Guid="eb0b728e-3b67-4bc6-853f-b9a616b9103c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="43d8c51090a35a3fe8946bfc7a56c718.png" xmlns="">0RMMbFMYh80e6Goh-xVhOjA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

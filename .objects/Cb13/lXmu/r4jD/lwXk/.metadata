@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Afficher le panneau",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "lwXkS9K_EU2GtFSNtqaF7w",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/lwXkS9K_EU2GtFSNtqaF7w",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/r4jDAa_v1kqI87Nha2d8WQ",
+  "Created": "2025-04-12T17:33:00.1610257Z",
+  "Updated": "2025-04-12T17:33:00.1610257Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

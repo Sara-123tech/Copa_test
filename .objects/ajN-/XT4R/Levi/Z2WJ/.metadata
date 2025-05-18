@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Assigner un évaluateur",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Z2WJ99eCg0aAygp9SX4fJw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/Z2WJ99eCg0aAygp9SX4fJw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-15T18:17:31.8311823Z",
+  "Updated": "2025-04-15T18:17:31.8311823Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

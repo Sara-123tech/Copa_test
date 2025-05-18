@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cbBeAH5qWEeKGHRtRzS6OQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/laureat-dashboard/fill-form" CVScreenId="8203bcd8-524e-4f68-9aaf-34f9e688e68f" CvElementArea="374, 302, 30, 29" CvType="CheckBox" DesignTimeRectangle="376, 304, 24, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='sq_197' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sq_197' tag='SPAN' type='' class='sd-item__decorator sd-checkbox__decorator' aaname='' /&gt;" Guid="a278de2a-caa2-40d0-aa0e-6a068ef2800c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8203bcd8-524e-4f68-9aaf-34f9e688e68f" CvTextArea="375, 256, 77, 19" CvTextArgument="question1" CvType="Text" DesignTimeRectangle="376, 253, 77, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='question1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='question1' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='question1' /&gt;" Guid="3b8028ec-3946-422b-8b48-03513fadafc7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4deb38ac8cfa25e1a6a29872cd3a7c96.png" xmlns="">0zmWDeNrNtUSJtGEtmSudFA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

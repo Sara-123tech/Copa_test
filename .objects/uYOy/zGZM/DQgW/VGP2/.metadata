@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SPAN",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "VGP2JCwhu0WCabuAKSgITw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/VGP2JCwhu0WCabuAKSgITw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/DQgWk3xLr026xo5Aqf4oEw",
+  "Created": "2025-04-12T17:59:16.9567816Z",
+  "Updated": "2025-04-12T17:59:16.9567816Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

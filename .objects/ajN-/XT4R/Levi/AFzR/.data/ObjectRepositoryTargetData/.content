@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LQGjFqnpfUm2EDIBvniyig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="6010d10d-e877-4409-8224-e73ccc18f795" CvTextArea="66, 362, 142, 15" CvTextArgument="Liste des formulaires" CvType="Text" DesignTimeRectangle="23, 350, 263, 43" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Liste des formulaires' tag='A' type='' class='no-underline py-[10px] flex gap-2 my-1 ml-3 mr-2 pl-3 transition-all duration-300 text-[#030303] hover:bg-gradient-to-r from-[#8e8c8c26] from-5% via-[#f3f2f2] via-30% to-white to-100% hover:border-l-[#777474] border-l-[#fff] border-l-4 border-[#FFF3F1] hover:animate-bg' check:innerText='Liste des formulaires' /&gt;" Guid="aa15d347-313c-4d86-a68c-e7fd35e0e27b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a5ef0a81fa187d761661d000442931d8.png" xmlns="">0TllgiBcylEaXVLrYThP_ZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

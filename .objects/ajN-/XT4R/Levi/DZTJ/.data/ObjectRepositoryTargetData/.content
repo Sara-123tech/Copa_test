@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6A8enbf0GkKfSoF6tSuNLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="524599cd-92f2-4808-b548-1f099ea99ed6" CvElementArea="444, 423, 487, 47" CvType="InputBox" DesignTimeRectangle="446, 418, 484, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id=':rp:' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':rp:' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq' placeholder='Post nom' aaname='' /&gt;" Guid="61efb118-f399-4b3d-93f9-f5f671edaa96" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="524599cd-92f2-4808-b548-1f099ea99ed6" CvTextArea="445, 400, 71, 15" CvTextArgument="Post nom" CvType="Text" DesignTimeRectangle="446, 398, 484, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;p' idx='2' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='MuiTypography-root MuiTypography-body2 css-d8k775' tag='P' aaname='Post nom' check:innerText='Post nom' /&gt;" Guid="d0d54260-125f-4220-b189-a95f8a01079e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c4c59d88915f779fab85a6a06f9d3ef.png" xmlns="">0esxd00fQVUijGXLNzVDGVQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

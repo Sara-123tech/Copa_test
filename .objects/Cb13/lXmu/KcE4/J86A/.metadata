@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Q2",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "J86A6Ll7O0Cauc78ZYvOEA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/J86A6Ll7O0Cauc78ZYvOEA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/KcE4XJ0nRE6MgWMT_J8J_g",
+  "Created": "2025-05-13T20:59:36.7625907Z",
+  "Updated": "2025-05-13T20:59:36.7625907Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

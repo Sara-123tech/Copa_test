@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="y1CJu7lIQkKb6xe4QTb2OQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/appels-a-candidature/details/94" CVScreenId="b6178c46-3e21-40ca-aeab-cd3a29855a62" CvElementArea="903, 542, 319, 39" CvTextArea="1001, 554, 125, 13" CvTextArgument="Postuler Maintenant !" CvType="Button" DesignTimeRectangle="906, 544, 315, 35" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Postuler Maintenant !' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Postuler Maintenant !' tag='BUTTON' type='' class='bg-[#0976BC] hover:bg-[#065A94] rounded-full py-2 px-6 mt-3 text-white no-underline w-full' check:innerText='Postuler Maintenant !' /&gt;" Guid="045a1359-5929-43f9-931c-74371d821684" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b6178c46-3e21-40ca-aeab-cd3a29855a62" CvTextArea="904, 388, 108, 30" CvTextArgument="Détails" CvType="Text" DesignTimeRectangle="906, 385, 315, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl class='font-roboto-slab' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl class='font-roboto-slab' tag='H2' type='' aaname='Détails' check:innerText='Détails' /&gt;" Guid="80d901bc-eb4b-4c67-b673-d716e63c72c3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="38aa7ef576462716decaf5ff1aec6dda.png" xmlns="">0qjVG1xBHmkKKGQ6sMixsnw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

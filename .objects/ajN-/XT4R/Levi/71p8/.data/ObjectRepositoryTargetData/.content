@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7GHlW4k2WE62c5PprNqIDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="524599cd-92f2-4808-b548-1f099ea99ed6" CvElementArea="444, 328, 488, 47" CvType="InputBox" DesignTimeRectangle="446, 324, 484, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id=':ro:' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':ro:' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq' placeholder='Nom' aaname='' /&gt;" Guid="c9f90f7a-9eb8-446d-885c-0225c9440990" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="524599cd-92f2-4808-b548-1f099ea99ed6" CvTextArea="445, 305, 36, 15" CvTextArgument="Nom" CvType="Text" DesignTimeRectangle="446, 303, 484, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;p' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='MuiTypography-root MuiTypography-body2 css-d8k775' aaname='Nom' check:innerText='Nom' /&gt;" Guid="2ac3ada1-b8d9-4113-86f7-e08e0ce102ee" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="66c2d31233bd242b4e0038b01ab04c24.png" xmlns="">0kVd3d08b4kSuBQWyEZCE3Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

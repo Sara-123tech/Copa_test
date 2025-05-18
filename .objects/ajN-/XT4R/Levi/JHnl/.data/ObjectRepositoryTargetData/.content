@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X1MY6IytBEWOvuX2k7lb0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="d6940e9d-8d76-41f2-b212-a87c9e163399" CvTextArea="554, 506, 321, 29" CvTextArgument="Saisissez le titre de la page" CvType="Text" DesignTimeRectangle="554, 506, 321, 28" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Saisissez le titre de la page' aria-role='textbox' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Saisissez le titre de la page' aria-role='textbox' tag='SPAN' type='' class='sv-string-editor' aaname='' /&gt;" Guid="de57f142-47d2-45e1-b081-686ec669357f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d6940e9d-8d76-41f2-b212-a87c9e163399" CvTextArea="555, 542, 267, 19" CvTextArgument="Entrez une description pour la page" CvType="Text" DesignTimeRectangle="556, 538, 265, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Entrez une description pour la page' aria-role='textbox' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Entrez une description pour la page' aria-role='textbox' tag='SPAN' type='' class='sv-string-editor' aaname='' /&gt;" Guid="43a317e6-406f-4699-a7a2-067bfddb0b8f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="20d1f862b64661f1e9c94288f3127e90.png" xmlns="">05uaJemrkykGRhvl6H069-w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

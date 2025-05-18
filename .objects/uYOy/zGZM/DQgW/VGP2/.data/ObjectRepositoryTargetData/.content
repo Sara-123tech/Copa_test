@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dS9Cdi0BdEGRuua3EO715Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/162/update" DesignTimeRectangle="320, 276, 24, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='svc-toolbox__item-container' idx='2' parentid='scrollableDiv-designer' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='svc-toolbox__item-container' type='' parentid='scrollableDiv-designer' tag='SPAN' aaname='' /&gt;" Guid="be5bff56-ab5d-42b3-bd99-72a0a5472151" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="fb121d7319cfa91e945a3eb73079fae3.png" xmlns="">0bULhfgT9B0-gwGxVBo42fg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

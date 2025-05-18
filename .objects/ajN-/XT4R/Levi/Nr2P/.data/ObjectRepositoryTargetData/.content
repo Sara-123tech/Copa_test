@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DiqGrERE_kmmfmIe2bmSvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures" CVScreenId="121f06e4-e4ba-420c-a823-881d3266c915" CvElementArea="878, 331, 130, 33" CvType="InputBox" DesignTimeRectangle="879, 332, 128, 30" DesignTimeScaleFactor="0.800000011920929" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-4dlq4c' parentid='root' tag='DIV' aaname='' /&gt;" Guid="1870fe0e-c590-4275-976a-c09d993793f0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="121f06e4-e4ba-420c-a823-881d3266c915" CvElementArea="878, 331, 130, 33" CvType="InputBox" DesignTimeRectangle="879, 346, 128, 16" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tabindex='-1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tabindex='-1' tag='INPUT' class='MuiSelect-nativeInput css-1k3x8v3' aaname='' /&gt;" Guid="08082cac-ad6c-427d-b6fc-24842b9a6f91" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4b7a3e754171b68ae9a21fd257082e78.png" xmlns="">0fWNByr0RdUau7gMkmtrk4w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

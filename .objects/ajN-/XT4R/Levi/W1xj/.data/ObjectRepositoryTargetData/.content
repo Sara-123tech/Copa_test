@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qTNn0FghLEaeimYAhgxB-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="85425eae-c7cb-488f-b782-546aa2c3daa8" CvElementArea="1154, 459, 64, 28" CvTextArea="1160, 465, 49, 12" CvTextArgument="Relancer" CvType="Button" DesignTimeRectangle="1155, 460, 60, 25" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='BUTTON' class=' w-[60px] h-[25px] no-underline bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-[6px] py-[4px] rounded-full text-xs my-0' aaname='Relancer' check:innerText='Relancer' /&gt;" Guid="c631671a-9db9-4080-b361-b69233b0be49" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="85425eae-c7cb-488f-b782-546aa2c3daa8" CvTextArea="1080, 463, 34, 14" CvTextArgument="Actif" CvType="Text" DesignTimeRectangle="1082, 463, 31, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Actif' class='font-semibold' tableRow='2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Actif' class='font-semibold' type='' tag='SPAN' check:innerText='Actif' /&gt;" Guid="3e820a02-7cd5-42e6-bb40-7e27881178ab" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="85425eae-c7cb-488f-b782-546aa2c3daa8" CvTextArea="1159, 405, 43, 14" CvTextArgument="Action" CvType="Text" DesignTimeRectangle="1145, 386, 181, 57" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Action' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Action' type='' tag='TH' class='MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1bigob2' check:innerText='Action' /&gt;" Guid="ebd48631-4d37-4e25-a88e-58a25b907bc0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d10582ae97f54517c4245fd232f6ac81.png" xmlns="">0IdnEOXuRoU69-T-LLUtrPQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

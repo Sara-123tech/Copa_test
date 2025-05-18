@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Classement",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "dRCfo84JmU-tNzNVMUfOZQ",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/dRCfo84JmU-tNzNVMUfOZQ",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-12T14:29:03.2441545Z",
+  "Updated": "2025-04-12T14:29:03.2441545Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

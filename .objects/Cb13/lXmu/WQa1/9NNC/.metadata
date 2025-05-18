@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Actionnariat / Manageme…",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "9NNCzLrLHUuC2Qp5r8I88g",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/9NNCzLrLHUuC2Qp5r8I88g",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/WQa1MC3XPU21xiimBQDjdw",
+  "Created": "2025-05-13T20:46:08.0095314Z",
+  "Updated": "2025-05-13T20:46:08.0095314Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

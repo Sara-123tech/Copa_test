@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y7IZARI9cEyR76ZKdjr99Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures" CVScreenId="de243acb-fb18-4fa7-a692-da539e4c2808" CvElementArea="284, 435, 17, 17" CvType="CheckBox" DesignTimeRectangle="276, 426, 33, 34" DesignTimeScaleFactor="0.800000011920929" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='PrivateSwitchBase-input css-1m9pwf3' aaname='' /&gt;" Guid="7549bf83-0404-46c9-844e-c4d0faf3f53d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="de243acb-fb18-4fa7-a692-da539e4c2808" CvElementArea="284, 435, 17, 17" CvType="CheckBox" DesignTimeRectangle="284, 435, 17, 17" ElementType="CheckBox" Guid="1e515cc5-7ceb-47b5-b9da-8555deee63a3" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="b3aacfe86e2d975256ff4eede2efdfc0.png" xmlns="">0w0viARViCkOcRA1fbq_YuA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

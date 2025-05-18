@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tefTic3A70-Scv14KOTEFw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs/update/e16df225-09a8-4412-9d5b-3a73bf07233d" CVScreenId="8f995271-a06b-46a2-a839-25f38b12445c" CvElementArea="1190, 545, 132, 45" CvTextArea="1215, 559, 81, 16" CvTextArgument="Mettre à jour" CvType="Button" DesignTimeRectangle="1192, 547, 127, 41" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Mettre à jour' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mettre à jour' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white shadow-none rounded-full px-4 py-2 css-1hw9j7s' check:innerText='Mettre à jour' /&gt;" Guid="cba28a8c-1478-4785-aa5e-b933b8726c45" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="0d39fc42534091f35a483988c156fcb9.png" xmlns="">0n5FoDzHcBEW64WFVFr_ynw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

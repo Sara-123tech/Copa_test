@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type de formulaire​",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "8MTtLTaCmUG0pwmiLphN9g",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/8MTtLTaCmUG0pwmiLphN9g",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/DMaYCZzIREKTzntYYDP2eQ",
+  "Created": "2025-04-12T09:54:44.1654932Z",
+  "Updated": "2025-04-12T09:54:44.1654932Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

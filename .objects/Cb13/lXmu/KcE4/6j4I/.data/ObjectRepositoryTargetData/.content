@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qlqv5G7FJkqMrInTgQ-cHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="0645cb7b-2bf4-4d7c-813a-d04e53b8ede1" CvElementArea="431, 359, 514, 56" CvType="InputBox" DesignTimeRectangle="432, 361, 512, 54" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='rounded-[10px]  border  w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-24' placeholder='Entrer votre e-mail' aaname='' /&gt;" Guid="ebcc8589-4a2c-4eb4-8abc-69a94c9eb3f3" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0645cb7b-2bf4-4d7c-813a-d04e53b8ede1" CvTextArea="430, 332, 112, 15" CvTextArgument="Adresse e-mail" CvType="Text" DesignTimeRectangle="432, 329, 512, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='font-semibold' aaname='Adresse e-mail' check:innerText='Adresse e-mail' /&gt;" Guid="0012b966-e086-4eaf-9cae-18912bdb0b5f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb5505130b6b8b2efa3b5f34e584d17a.png" xmlns="">0rCTuNKeVhE6u_maZdf-CFg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

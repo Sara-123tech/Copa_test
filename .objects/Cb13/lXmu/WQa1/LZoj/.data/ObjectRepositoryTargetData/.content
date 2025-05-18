@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="77vz-a_uPUSJ6x2Gr5U5dw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" CVScreenId="04a1d04f-c850-434a-93f5-63356884dffd" CvElementArea="1091, 588, 192, 61" CvTextArea="1157, 611, 60, 15" CvTextArgument="Suivant" CvType="Button" DesignTimeRectangle="1094, 591, 186, 56" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='sd-btn sd-navigation__next-btn' aaname='Suivant' check:text='Suivant' /&gt;" Guid="0dc1a58a-73d4-443c-924c-a57c0c5d9b74" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d0b6d2a5c179a8b74408814f7efe9fb4.png" xmlns="">0Y4rBGb22BUmGJPZwrLQItQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

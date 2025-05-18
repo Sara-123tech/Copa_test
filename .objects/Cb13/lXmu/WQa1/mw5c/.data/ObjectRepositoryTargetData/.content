@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wVEDba8wTUSQoI-FWWmCkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" CVScreenId="5e2552e1-720a-417a-8709-1fa371f8054a" CvElementArea="1068, 471, 214, 60" CvTextArea="1133, 494, 84, 15" CvTextArgument="Soumettre" CvType="Button" DesignTimeRectangle="1070, 474, 210, 56" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='sv-nav-complete' tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sv-nav-complete' tag='INPUT' type='button' class='sd-btn sd-btn--action sd-navigation__complete-btn' aaname='Soumettre' check:text='Soumettre' /&gt;" Guid="46e6a114-1093-45b8-af13-040678a94d1c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a8365881b1db1746088f1360de27d30e.png" xmlns="">063mv_LWsQEuThY5d14zqtw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

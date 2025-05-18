@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EQH3cUkcekKSL8oz697QDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="f02cb3fe-7d52-4331-b1a7-1b8a15b68d1b" CvElementArea="594, 502, 547, 51" CvType="InputBox" DesignTimeRectangle="532, 308, 672, 404" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='sp_1616' tag='DIV' type='' class='svc-page__content ' aaname='' /&gt;" Guid="e10f71e8-22b1-4f0c-ab80-859ddf12f442" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="409, 510, 113, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Vrai/Faux (Booléen)' parentid='scrollableDiv-designer' tag='SPAN' type='' class='' check:innerText='Vrai/Faux (Booléen)' /&gt;" Guid="866d5585-4ac9-40d3-bf82-2ed71321b4e1" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="814c7793a65277296ab2ea9d26c4e55c.png" xmlns="">09QcT--1I_02FBFs4uGF0Mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: COPA TRANSFORME RDC(11)",
+  "Type": "App",
+  "Id": "q9TvsGxGakWtNCJ-oDQqCw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/q9TvsGxGakWtNCJ-oDQqCw",
+  "Created": "2025-05-13T15:47:13.6116052Z",
+  "Updated": "2025-05-13T15:47:13.6116052Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

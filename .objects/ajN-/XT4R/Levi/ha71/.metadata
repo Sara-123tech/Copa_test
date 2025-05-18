@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Envoyer l'invitation",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ha71IjYeL0q-cIAzQP_qlg",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/ha71IjYeL0q-cIAzQP_qlg",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-14T17:09:34.0393734Z",
+  "Updated": "2025-04-14T17:09:34.0393734Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

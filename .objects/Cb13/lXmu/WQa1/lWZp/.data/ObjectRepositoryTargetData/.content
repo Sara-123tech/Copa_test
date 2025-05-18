@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lnfkLmCaQkWK3Jf47tBwfQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" CVScreenId="13efa895-c754-48a3-ba90-384cc8850a12" CvElementArea="991, 471, 53, 52" CvTextArea="1012, 489, 11, 15" CvTextArgument="3" CvType="Button" DesignTimeRectangle="994, 473, 48, 48" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='3' parentid='sq_177' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='sq_177' tag='LABEL' class='sd-rating__item sd-rating__item--allowhover sd-rating__item--fixed-size' aaname='' check:innerText='3' /&gt;" Guid="40fab313-b518-4e47-9840-e61ad13e02e8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="13efa895-c754-48a3-ba90-384cc8850a12" CvTextArea="879, 336, 199, 16" CvTextArgument="Performances financières" CvType="Text" DesignTimeRectangle="880, 334, 198, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Performances financières' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Performances financières' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Performances financières' /&gt;" Guid="d06a1ead-c69a-4546-a27d-dafbf4b1a3e4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="b86ddd57c6f98d5893d3d422c579bc5e.png" xmlns="">0VJfAeQm51EKfAh16E1uJRQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4ybLd7dfb06PYdfk5JxQjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme" DesignTimeRectangle="881, 377, 212, 51" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Assigner formulaire existant' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assigner formulaire existant' tag='BUTTON' type='' class='bg-blue-500 text-white px-6 py-3 rounded-lg font-medium' check:innerText='Assigner formulaire existant' /&gt;" Guid="907600c2-8e45-43c5-a1d3-4e6e1142135c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="702c35e9d604acd79374369fbed358ea.png" xmlns="">0XVHBEIeYsUWLW7awtgqhjw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

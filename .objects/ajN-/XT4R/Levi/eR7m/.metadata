@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Assignement automatique…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "eR7mXG4av0CrHAPw-CFuMA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/eR7mXG4av0CrHAPw-CFuMA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-15T18:58:31.8281843Z",
+  "Updated": "2025-04-15T18:58:31.8281843Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

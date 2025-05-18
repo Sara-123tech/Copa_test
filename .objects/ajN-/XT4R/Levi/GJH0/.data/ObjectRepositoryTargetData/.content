@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fb8eBcZamUSCwqZiK-U6Bg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="16477b4f-9bb1-4f8f-9f1f-a5a8b03e6d68" CvTextArea="461, 605, 67, 15" CvTextArgument="Kinshasa" CvType="Text" DesignTimeRectangle="446, 596, 484, 36" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl tabindex='0' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl tabindex='0' tag='LI' type='' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz' aaname='Kinshasa' check:innerText='Kinshasa' /&gt;" Guid="ccd227d7-b193-4344-8895-e7677125841a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="16477b4f-9bb1-4f8f-9f1f-a5a8b03e6d68" CvTextArea="461, 605, 67, 15" CvTextArgument="Kinshasa" CvType="Text" DesignTimeRectangle="461, 605, 67, 15" ElementType="Text" Guid="7740445b-0f02-4d82-907e-2cc92b9f496d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="95cf1b7fceade7bf0ab5198cbf9a6ce2.png" xmlns="">03ptqjOluOU2UQL0tpxkhDQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

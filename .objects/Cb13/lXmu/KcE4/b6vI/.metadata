@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Aperçu et soumettre",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "b6vIeH6v8EG_oFN2ojfBeA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/b6vIeH6v8EG_oFN2ojfBeA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/KcE4XJ0nRE6MgWMT_J8J_g",
+  "Created": "2025-05-13T21:00:25.5342833Z",
+  "Updated": "2025-05-13T21:00:25.5342833Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

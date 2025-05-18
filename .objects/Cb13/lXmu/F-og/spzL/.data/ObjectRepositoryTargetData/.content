@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e_vtDl0oHEij1efqclagvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme" CVScreenId="331bb47b-1f7d-41ce-b2f8-3563e5645331" CvElementArea="376, 451, 446, 61" CvType="InputBox" DesignTimeRectangle="378, 453, 442, 58" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='w-full p-3 border border-gray-400 rounded-md' aaname='' /&gt;" Guid="ece17f52-6843-45c5-9f14-2cc309998c32" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="331bb47b-1f7d-41ce-b2f8-3563e5645331" CvTextArea="376, 428, 207, 15" CvTextArgument="Titre de l'appel à candidature" CvType="Text" DesignTimeRectangle="378, 425, 442, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='block text-gray-800 text-base mb-1' aaname='Titre de l&amp;apos;appel à candidature' check:innerText='Titre de l&amp;apos;appel à candidature' /&gt;" Guid="424f520d-6bab-4c8e-93ba-a240534bb478" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4570f8fe306de731a17b54aadba43a02.png" xmlns="">0nAXzpf0YvUKIYotsdJPNnw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

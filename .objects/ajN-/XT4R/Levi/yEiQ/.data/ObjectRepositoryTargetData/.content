@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OL69JeRdTEik97ZbPshydg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="c9fd3ec9-91f2-455d-8afe-3145862f2b22" CvTextArea="66, 409, 139, 15" CvTextArgument="Liste des utilisateurs" CvType="Text" DesignTimeRectangle="23, 397, 263, 42" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Liste des utilisateurs' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Liste des utilisateurs' tag='A' type='' class='no-underline py-[10px] flex gap-2 my-1 ml-3 mr-2 pl-3 transition-all duration-300 text-[#030303] hover:bg-gradient-to-r from-[#8e8c8c26] from-5% via-[#f3f2f2] via-30% to-white to-100% hover:border-l-[#777474] border-l-[#fff] border-l-4 border-[#FFF3F1] hover:animate-bg' check:innerText='Liste des utilisateurs' /&gt;" Guid="311fe6b5-2077-4be0-b209-ff7010be9b9e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c9fd3ec9-91f2-455d-8afe-3145862f2b22" CvElementArea="34, 406, 29, 23" CvType="Icon" DesignTimeRectangle="39, 407, 20, 22" ElementType="Icon" FullSelectorArgument="&lt;webctrl aaname='is active' src='/static/media/coachsIcon.58d44ebe10227ebedc8722d859cec00f.svg' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='is active' src='/static/media/coachsIcon.58d44ebe10227ebedc8722d859cec00f.svg' tag='IMG' type='' class='' /&gt;" Guid="9e366952-23cf-4422-a109-ca4fca735aa4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAaCAYAAACtv5zzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHUSURBVEhL7ZPrTsJAEIV9//fxLqhgaKsVSm2LCBIVEQEJiC3Q1nqc2awCdg1o4g+NJ5k03Z3db3Yua/hh/QOW6o8D4vgZ02ko/74nJWBCl3oXVzgslJDNm9BOHHS6fbn7NaUAHLVx6mJ9t0BfB0W7irxmYStroNXuCZ9gMoXt1VA6u1Da2fml8GOlAK12Fxt7BbjnDbkC9PoDek0ROa0kAngc+QQt40j/xI4deVIBKLs1SsspwnAx97Zbx+7BsbicFUWxgKmM996UAlj0xEzOxJjSMC+32sDOvvEOWFUpwM1tB5sZDVfNtlwBRk8+pcgSzw8pOn88FnXK65bSTkoVeVIBmIYRdNMREL6k7HDKTGxT9Ld3XeETBGPo1ACqy9lMyxN+rBTgoT8kpzI29zTqHE3knTuK01Ot3yCKZ/ldRQuA7sMQ+1RgjrjWaGIwHFF6AtzTDBhFD1sZndqzjiRJ5Al1sZVF5onNUb/zcA2GT3J1piR5QYWGbzur41rWp0cBceseGdSac6aZtthnvQOarY7o/7c8q8SRcRBsHKnvB6LrPg6aXanLE3OA9n2PilNJtedH9QePVHyPAKvVYqEGEUW1iuJ4VoNlWgD8hP4BS/XbAcAryGR0vku0XUQAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="97eea270bf1f85e2369b564d9f62d51a.png" xmlns="">0_-ryPBIVnkC7Z4abN7bdog</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

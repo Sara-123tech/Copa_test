@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Modifier",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "yTWUbcYdR06lTkuPh-HuJA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/yTWUbcYdR06lTkuPh-HuJA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/DQgWk3xLr026xo5Aqf4oEw",
+  "Created": "2025-04-12T17:51:53.7622439Z",
+  "Updated": "2025-04-12T17:51:53.7622439Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

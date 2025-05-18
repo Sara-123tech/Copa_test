@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Tous les statut",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "D-NTHBpG-EKFWQRougIPXw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/D-NTHBpG-EKFWQRougIPXw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-05-13T20:14:06.4268001Z",
+  "Updated": "2025-05-13T20:14:06.4268001Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

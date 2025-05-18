@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tzpRTlCWR0WN07QyJFwCaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="3e4da741-c52a-4dd6-b8fc-d029fb56ffee" CvElementArea="337, 322, 321, 48" CvType="InputBox" DesignTimeRectangle="337, 323, 320, 46" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='default-search' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='default-search' tag='INPUT' type='search' class='py-[12px] ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg focus:outline-none w-full' placeholder='Rechercher par nom, adresse mail,...' aaname='' /&gt;" Guid="40d7eff5-00cb-43fa-bed2-f8885ced23b7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8860397e8ff8c4e4fd08ea2b809e7c2c.png" xmlns="">0K3bBN1BSMkygUhfOSLcF2Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

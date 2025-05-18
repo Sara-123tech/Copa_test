@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DlybEG9KgUGxsuUO-E6aWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com" CVScreenId="33ff4ac1-1a92-4adf-b08c-74ece9539b18" CvElementArea="1087, 195, 141, 45" CvTextArea="1112, 208, 89, 18" CvTextArgument="Mon espace" CvType="Button" DesignTimeRectangle="1089, 197, 135, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mon espace' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mon espace' tag='A' type='' class='bg-[#0976BC] text-white no-underline rounded-full px-4 py-2 hover:bg-[#065A94] transition-colors duration-300 max-w-fit' check:innerText='Mon espace' /&gt;" Guid="951b2e2a-e1eb-403f-9b6f-fa4c46d34cad" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5643cba7771bb42c3cd65d88ee6ef5b7.png" xmlns="">0-H-mppLBNkGYI66K8q1xmQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

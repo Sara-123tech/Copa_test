@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lKHRvOZXR0a16bx2qIibQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="c81deeb2-3a55-4ddf-8dee-3db4eb62727a" CvTextArea="66, 362, 142, 15" CvTextArgument="Liste des formulaires" CvType="Text" DesignTimeRectangle="66, 362, 142, 15" DesignTimeScaleFactor="1" ElementType="Text" Guid="701415c3-d4ec-4669-bfb6-14498dda8fdb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1de35cc159e0d637c455052c4722f31f.png" xmlns="">0TaAqgc5ERUqWJ8GFuAJZdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fJumYKhmQEW_ndOG44uAfQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs/update/00044361-bf57-4ee8-8fa3-31e138ff80b3" DesignTimeRectangle="8, 147, 1366, 581" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl parentid='menu-ville' tag='DIV' type='' class='MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-esi9ax' aaname='' /&gt;" Guid="4686b710-fd32-476c-afb5-eab7e7dee4a3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c75f3f869c1a879a828e4822b1bdc76f.png" xmlns="">0CTrIT4aUoEugWLbwUNlXOQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TakeScreenshot</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

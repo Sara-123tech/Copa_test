@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZZMjQV5LGU6hyLjICkMRRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures" CVScreenId="3e1d23e0-05ba-42f6-95e8-a01df3b79b5f" CvElementArea="688, 475, 115, 43" CvTextArea="713, 487, 64, 13" CvTextArgument="Confirmer" CvType="Button" DesignTimeRectangle="690, 476, 110, 39" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Confirmer' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Confirmer' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary flex items-center rounded-full font-medium hover:bg-[#065A94] transition-colors duration-300 css-1ujsas3' check:innerText='Confirmer' /&gt;" Guid="3bd93acc-c691-41c7-942d-15078f02eee3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3e1d23e0-05ba-42f6-95e8-a01df3b79b5f" CvElementArea="688, 475, 115, 43" CvTextArea="713, 487, 64, 13" CvTextArgument="Confirmer" CvType="Button" DesignTimeRectangle="714, 484, 62, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Confirmer' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Confirmer' tag='SPAN' type='' class='' check:innerText='Confirmer' /&gt;" Guid="165f34a5-b9d7-492a-b08c-c403308b4e3f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="53ca919476921d397c629e22817971fb.png" xmlns="">07_mb857Qakm87wJrQ1oj5w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

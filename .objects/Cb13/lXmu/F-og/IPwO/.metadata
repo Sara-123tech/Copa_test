@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Date limite de soumissi…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IPwODVagCUiSU4Fr6jc_lA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/IPwODVagCUiSU4Fr6jc_lA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g",
+  "Created": "2025-05-13T11:10:04.9646096Z",
+  "Updated": "2025-05-13T11:10:04.9646096Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

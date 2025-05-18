@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a1L2fzq5YEaQd5kpztUvxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" DesignTimeRectangle="511, 627, 75, 40" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='sd-boolean__label' idx='2' parentid='sq_189' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='sd-boolean__label' type='' parentid='sq_189' tag='SPAN' aaname='' check:innerText='Oui' /&gt;" Guid="01f6216a-08b7-4d06-ad40-3978741e96f9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="655682a7-c085-421e-b5c8-06663f987bb5" CvTextArea="423, 534, 146, 20" CvTextArgument="Création d'emplois" CvType="Text" DesignTimeRectangle="424, 532, 144, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Création d’emplois' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Création d’emplois' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Création d’emplois' /&gt;" Guid="e8dca91c-cfe7-4989-a29a-3e49faade6cd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d55f4784cbb416c7918633f924bf5dc8.png" xmlns="">0adYfbeq5tUCREWvixHnlFA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

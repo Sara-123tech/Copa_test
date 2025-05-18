@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DcRyEKgkS0W9i5BRbATmDQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" DesignTimeRectangle="511, 399, 75, 40" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='sd-boolean__label' idx='2' parentid='sq_187' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='sd-boolean__label' type='' parentid='sq_187' tag='SPAN' aaname='' check:innerText='Oui' /&gt;" Guid="9eaafafb-d98d-4e90-91e3-3a8c03cbcadc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="655682a7-c085-421e-b5c8-06663f987bb5" CvTextArea="422, 283, 216, 19" CvTextArgument="Actionnariat / Management" CvType="Text" DesignTimeRectangle="424, 280, 213, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Actionnariat / Management' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Actionnariat / Management' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Actionnariat / Management' /&gt;" Guid="20adc51d-1cda-44f6-b553-bbb9100d0025" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="3ee8af9aa8d4e4651e004bc6515dcac8.png" xmlns="">0bDBXOS6LjE6k46Xbl5w3Bg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

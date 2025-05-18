@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Ville",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "q1w2OtzR6UKrLSvTTQj1-Q",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/q1w2OtzR6UKrLSvTTQj1-Q",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-14T17:08:12.1404837Z",
+  "Updated": "2025-04-14T17:08:12.1404837Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

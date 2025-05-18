@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-1njUSoVHke60XRlnuBMeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="6541402a-84be-4ab7-9ccd-8b1efe87a66b" CvTextArea="461, 569, 85, 15" CvType="AnyWordGroup" DesignTimeRectangle="446, 560, 484, 36" DesignTimeScaleFactor="1" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' tabindex='-1' tag='LI' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz' /&gt;" Guid="1a829584-51d0-408f-bd5f-2da76165e27d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6541402a-84be-4ab7-9ccd-8b1efe87a66b" CvTextArea="461, 569, 85, 15" CvTextArgument="Evaluateurs" CvType="Text" DesignTimeRectangle="461, 569, 85, 15" ElementType="Text" Guid="6a718f89-ab07-4d0e-a905-af44f10d09aa" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e5ebd91b945c2186fc267785db36fba0.png" xmlns="">0FZHzlTw55keeeW0gI-3qGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

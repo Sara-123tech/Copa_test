@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Découvrir",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "J0GL4AL1DEeJGmtPf9_nRg",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/J0GL4AL1DEeJGmtPf9_nRg",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/KcE4XJ0nRE6MgWMT_J8J_g",
+  "Created": "2025-04-17T08:36:26.2136159Z",
+  "Updated": "2025-04-17T08:36:26.2136159Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

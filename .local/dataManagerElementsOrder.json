@@ -1,0 +1,310 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "email",
+        "password"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "reusable_TC/login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "botton_connecter&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "password",
+        "email"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_formulaire.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "form_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion des utilisateurs/inviter_un_evaluateur.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion des utilisateurs/re_inviter_un_utilisateur.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion des utilisateurs/activer_un_compte.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion des utilisateurs/desactiver_un_compte.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion des utilisateurs/modifier_un_compte.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion des utilisateurs/supprimer_un_compte.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "relance&Sequence_2",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion_des_candidatures/assigner_une_candidature_à_un_evaluateur.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "empty&Sequence_2",
+        "ExtractDataTable&Sequence_2",
+        "relance&Sequence_2",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/gestion_des_candidatures/assigner_une_candidature_à_une_evaluation_auto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "relance&Sequence_5",
+        "ExtractDataTable&Sequence_5",
+        "empty&Sequence_5",
+        "selection&Sequence_5",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Evaluateur/Evaluer_une_candidature.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "User/Postuler_à_un_offre_d'emploi.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "nom_offre&Flowchart_1",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_form/creation_nouveau_formulaire_de_type_appel_à_condidature.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Number&Sequence_50",
+        "form_element_exist&Flowchart_1",
+        "ExtractDataTable&Flowchart_1",
+        "variable1&Flowchart_1",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "find_form"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_appel_a_candidature_form_prete/creation_appel_ferme.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_appel_a_candidature_form_prete/creation_appel_publie.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_appel_a_candidature_form_prete/creation_appel_brouillon.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "pic"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_form/creation_nouveau_formulaire_de_type_document_annexe.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Number&Sequence_50",
+        "indice&Sequence_1",
+        "form_element_exist&Flowchart_1",
+        "find_form&Flowchart_1",
+        "ExtractDataTable&Flowchart_1",
+        "variable1&Flowchart_1",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_form/creation_nouveau_formulaire_de_type_document_cadrage.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Number&Sequence_62",
+        "indice&Sequence_1",
+        "form_element_exist&Flowchart_1",
+        "find_form&Flowchart_1",
+        "ExtractDataTable&Flowchart_1",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_form/creation_nouveau_formulaire_de_type_formulaire_d'évaluation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Number&Sequence_58",
+        "indice&Sequence_1",
+        "form_element_exist&Flowchart_1",
+        "find_form&Flowchart_1",
+        "ExtractDataTable&Flowchart_1",
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_appel_a_candidature_form_non_prete/création_appel_à_candidature_form_nom_prete.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Flowchart_1",
+        "nom_form&Sequence_5",
+        "Number&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/modifier_form&appel_a_candidature/modification_appel_à_candidature.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/creation_appel_a_candidature_form_prete/création_appel_à_candidature_form_nom_prete.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Flowchart_1",
+        "Number&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Admin/modifier_form&appel_a_candidature/modification_Formulaire.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dashboard_element_exist&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test_de_stress/Test_de_Stress.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "result&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Workflow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

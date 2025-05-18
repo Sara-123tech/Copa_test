@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome: COPA TRANSFORME RDC",
+  "Type": "Screen",
+  "Id": "UTFXOvjqZ02TcWWdz_bisw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/UTFXOvjqZ02TcWWdz_bisw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/ZRUfii_ZoE6XH_GMPAk-gQ",
+  "Created": "2025-04-12T18:10:04.6527033Z",
+  "Updated": "2025-04-12T18:10:04.6527033Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nk0UY-480EWrJfRPMicH7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures/assign-evaluator" CVScreenId="f1259ee9-d598-4548-a464-dc541656aa2a" CvElementArea="1221, 500, 79, 32" CvTextArea="1233, 509, 52, 14" CvTextArgument="Assigner" CvType="Button" DesignTimeRectangle="1223, 502, 74, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='BUTTON' class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary no-underline bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 capitalize text-white font-normal shadow-none px-[12px] py-[6px] rounded-full text-xs css-1hw9j7s' aaname='Assigner' check:innerText='Assigner' /&gt;" Guid="27c5d8c4-e56b-49e1-8714-a55098a7df3c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f1259ee9-d598-4548-a464-dc541656aa2a" CvTextArea="347, 507, 109, 17" CvTextArgument="Evaluateur Super" CvType="Text" DesignTimeRectangle="338, 497, 191, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-q34dxg' aaname='Evaluateur Super' check:innerText='Evaluateur Super' /&gt;" Guid="a69d8ace-8436-4be0-ba45-5ae72de42de3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-6" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="57e13b2336a3639cf80bb23d2dcd2179.png" xmlns="">0Tc7jOsfJ2UOozjfCHOuWtA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

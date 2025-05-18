@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Rôle(2)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "ImQT6yx2AUy01vcB1KU45Q",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/ImQT6yx2AUy01vcB1KU45Q",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-15T15:39:31.5066192Z",
+  "Updated": "2025-04-15T15:39:31.5066192Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

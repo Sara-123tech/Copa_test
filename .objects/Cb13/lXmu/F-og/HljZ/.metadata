@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Liste des appels à cand…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "HljZrbLfFUmMyLoJMXnrcA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/HljZrbLfFUmMyLoJMXnrcA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g",
+  "Created": "2025-04-14T15:51:09.5221329Z",
+  "Updated": "2025-04-14T15:51:09.5221329Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FrQ9AkoM8Eqbt5iY8j9_tw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/87" CVScreenId="b8a16089-5d57-4d95-a1ef-602cf5cfa71b" CvElementArea="628, 541, 124, 29" CvTextArea="637, 546, 240, 14" CvTextArgument="Choisir un fichier Aucun fichier choisi" CvType="Button" DesignTimeRectangle="630, 542, 268, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' type='file' /&gt;" FuzzySelectorArgument="&lt;webctrl class='' tag='INPUT' type='file' aaname='' /&gt;" Guid="70129cd0-3339-4fde-9dc7-93903f640ba7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7fee1318b0db71cbc0b4143b5a85e282.png" xmlns="">00iedfYHLhUyrN4c-ktR58A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

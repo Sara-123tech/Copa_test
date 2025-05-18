@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uiyGm7xD_E--IeeL4o5ajg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures" CVScreenId="8e4f2988-6b6c-45c6-87f6-aa57f2dc6794" CvElementArea="905, 306, 213, 49" CvTextArea="929, 322, 164, 16" CvTextArgument="Assignement automatique" CvType="Button" DesignTimeRectangle="907, 308, 210, 46" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Assignement automatique' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assignement automatique' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary px-4 py-2 gap-2 rounded-md mb-0 flex items-center font-medium bg-[#0976BC] hover:bg-[#065A94] text-white transition-colors duration-300 css-1ujsas3' check:innerText='Assignement automatique' /&gt;" Guid="035a32b2-7f05-4e24-9158-0247d35a49e1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="47f7310cf07f88c7dee7a5a4792bf3bf.png" xmlns="">0tsn4dQV6ukCG0IENsBUmbg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PK9VmB6d_ECbv6AnFqM1sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" DesignTimeRectangle="884, 351, 79, 40" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='sq_188' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sq_188' tag='SPAN' type='' class='sd-boolean__label' aaname='' check:innerText='Non' /&gt;" Guid="1e86385d-6f2c-4b51-b48e-1cf38525f73c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="655682a7-c085-421e-b5c8-06663f987bb5" CvTextArea="879, 282, 71, 16" CvTextArgument="Inclusion" CvType="Text" DesignTimeRectangle="880, 280, 70, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Inclusion' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Inclusion' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Inclusion' /&gt;" Guid="4641558a-561d-4bd9-ab9c-b9da92326225" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5ffb6613e914dd450c40ea3b8007a1c7.png" xmlns="">0LKvdvghRUU-zf9Al3D-Bhw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

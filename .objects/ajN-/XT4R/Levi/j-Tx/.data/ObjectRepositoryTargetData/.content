@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FzEWSQJdAku_GiG-jqWbqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="e5ade13d-8c10-4197-87e1-5f2aacaad9b4" CvTextArea="66, 362, 142, 15" CvTextArgument="Liste des formulaires" CvType="Text" DesignTimeRectangle="67, 360, 140, 23" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Liste des formulaires' tag='SPAN' type='' class='' check:innerText='Liste des formulaires' /&gt;" Guid="80317d22-fff1-45de-9afa-65d0f25bc38e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e5ade13d-8c10-4197-87e1-5f2aacaad9b4" CvTextArea="66, 362, 142, 15" CvTextArgument="Liste des formulaires" CvType="Text" DesignTimeRectangle="23, 350, 263, 43" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Liste des formulaires' tag='A' type='' class='no-underline py-[10px] flex gap-2 my-1 ml-3 mr-2 pl-3 transition-all duration-300 text-[#030303] hover:bg-gradient-to-r from-[#8e8c8c26] from-5% via-[#f3f2f2] via-30% to-white to-100% hover:border-l-[#777474] border-l-[#fff] border-l-4 border-[#FFF3F1] hover:animate-bg' check:innerText='Liste des formulaires' /&gt;" Guid="a6c3810c-10b5-4cc2-a051-156e628937ed" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a9108f53cfb3d606d268b13400be9e6.png" xmlns="">0U3xHXvGqvkqOaDKMMN_QvA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

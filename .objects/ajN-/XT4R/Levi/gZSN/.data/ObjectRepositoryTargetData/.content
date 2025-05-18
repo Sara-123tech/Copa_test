@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zGDMMowe-kiyW09Uso-EKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" DesignTimeRectangle="556, 567, 624, 56" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='sp_2326' tabindex='0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sp_2326' tabindex='0' tag='DIV' type='' class='svc-element__add-new-question svc-btn' aaname='' check:innerText='Ajouter Question' /&gt;" Guid="bb7d0cbc-470e-4810-8254-73f1c1291a67" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="87a4670630c4839bdcfc98126d9eefc8.png" xmlns="">034PDhSBfQkOsFNaG2Nzdiw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

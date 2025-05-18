@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MhTcfWzQ-E-jQL3u0koYqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="ad41dc68-d8fc-4a4f-b614-8c056dafe1db" CvElementArea="1161, 578, 45, 26" CvType="Icon" DesignTimeRectangle="1153, 569, 42, 42" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl idx='2' isleaf='1' tableCol='7' tableRow='4' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='' isleaf='1' type='' class='MuiTouchRipple-root css-w0pj6f' tag='SPAN' /&gt;" Guid="792da6af-399b-459b-a64d-c463dc977a4c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHbSURBVFhH7ZQ5ikJBEEDn/gcwcDuGgZGhhqIGCmKgiYrivmsN79MFIsr0UgYD/0Hht9dHVXf/yD8hF7UmF7UmF7UmF7XGXPTxeGRhTbKoit3v97dhJR4tqnK32y0LlVL+6g8lSlQlfDcPHf+OYFE20iyFovNiZINEUySVbrcr5XJZKpWKVKtV7/AW1fJdr1fXEk+j0chk3wl9Cm9RleQ3le12K6VSKSirXqJa8svl4lrSCc2qtyjZtBQdDodBWfUSpdxIWpRd2Ww23xE9n8/unw2sWSwW7UT1th+PR9dig4r6ntMgUYunSVmv17aioKU/HA6uJZ1+v29bekCUy0QWrKjX6/aXSZ8nRC0u1Wq1kkKh8B1RHnzO6Xw+d63x1Gq1oPNJeIkC5SerZGM6nbrWcJrNZnA2CW9Rvf2UfjabyWQycT3+MIe5rMFarOmLtyjoEWAjsjoYDGS/37vezzCGscxhLmuESEKQKDzLLpdL6fV60ul0ZDwey263y/oJvmmjjzGMjZWEYFFgIz2zvK2LxUJGo5G0221ptVpZ8E0bfYxhbGi5n4kSBZUlQ0jwzp5Op0yK4Js2+hiTIgnRogqbq/S70P5UkkVfsRJ7xVz0W+Si1uSi1uSitoj8AoXMqCAi9Mq9AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5d1c7829422186ef2ec2077b3caaa320.png" xmlns="">0lhDnvDpDXU6lymosWlMzZg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

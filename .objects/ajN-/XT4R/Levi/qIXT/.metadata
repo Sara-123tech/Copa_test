@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Evaluateurs",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "qIXTNuE0XEC9DN3Nj4Mvaw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/qIXTNuE0XEC9DN3Nj4Mvaw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-14T17:07:56.8032175Z",
+  "Updated": "2025-04-14T17:07:56.8032175Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

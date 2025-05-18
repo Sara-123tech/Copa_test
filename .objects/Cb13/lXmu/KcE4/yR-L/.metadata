@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mot de passe",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "yR-LA79kJkGlF035iEd_tA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/yR-LA79kJkGlF035iEd_tA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/KcE4XJ0nRE6MgWMT_J8J_g",
+  "Created": "2025-05-13T20:57:30.1765077Z",
+  "Updated": "2025-05-13T20:57:30.1765077Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

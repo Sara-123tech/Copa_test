@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RWfnx30uo0WmmwfGDTPh6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="da928d5b-8262-469f-896d-0772703a9400" CvTextArea="554, 259, 321, 28" CvTextArgument="Saisissez le titre de la page" CvType="Text" DesignTimeRectangle="554, 259, 321, 28" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h4&amp;gt;span&amp;gt;span&amp;gt;div' idx='2' isleaf='1' parentid='sp_772' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='svc-string-editor__border svc-string-editor__border--focus' isleaf='1' parentid='sp_772' tag='DIV' aaname='' /&gt;" Guid="d408b8ef-5c97-4eb4-a021-584d615aedd3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="21" Y="14" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9385ce98cbbad74e1cbf4e95e6a5b36e.png" xmlns="">0AdBumYR5JEWX87seuSLIVQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

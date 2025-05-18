@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qgxoScco3EOJAjSaJcvexQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme" CVScreenId="6dd8f86f-4dd2-4668-a412-0a0bd9f6bbab" CvElementArea="1148, 514, 141, 49" CvTextArea="1196, 529, 43, 13" CvTextArgument="Valider" CvType="Button" DesignTimeRectangle="1150, 515, 136, 45" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Valider' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Valider' tag='BUTTON' type='' class=' bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white shadow-none rounded-full px-5 py-2 h-[45px]' check:innerText='Valider' /&gt;" Guid="0a65520e-bea5-417f-a9e6-983a04c6c6bc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c2e478e6691535a1098a7f9469800eee.png" xmlns="">0jQX2atIBdEiV36E3oIFsZA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

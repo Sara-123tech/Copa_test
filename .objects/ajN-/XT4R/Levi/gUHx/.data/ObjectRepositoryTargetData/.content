@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="b5UY3wSVokKM4MDQ7svUng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="119dc321-d54b-4004-8f8e-e5ed6b94636e" CvTextArea="461, 641, 233, 18" CvTextArgument="Unites de coordination de projet" CvType="Text" DesignTimeRectangle="446, 632, 484, 36" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl idx='5' tabindex='-1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tabindex='-1' tag='LI' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz' aaname='Unites de coordination de projet' check:innerText='Unites de coordination de projet' /&gt;" Guid="e546543a-97a6-4930-9ddf-b9b88c6f6083" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="119dc321-d54b-4004-8f8e-e5ed6b94636e" CvTextArea="461, 641, 233, 18" CvTextArgument="Unites de coordination de projet" CvType="Text" DesignTimeRectangle="461, 641, 233, 18" ElementType="Text" Guid="6bca02db-8060-44b9-b407-48b375de57ee" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5402ad76efebae08d094893b6ce353ea.png" xmlns="">0HSBfNsHtH0aYvLX2vgPCcg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

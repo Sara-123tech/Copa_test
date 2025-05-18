@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XKyMFfnXyUKozG1ecOYIFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="c791a87e-2634-4a7c-a3b2-8f2bbe2e5ffb" CvElementArea="1093, 160, 161, 43" CvType="InputBox" DesignTimeRectangle="1216, 172, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='basic-button' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='basic-button' tag='svg' type='' class='' aaname='' /&gt;" Guid="a56f0e22-81d3-4438-86cc-1171841ee837" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a811ee81d1e1a3ab736c0c9aa25b386c.png" xmlns="">0EP7P0grCpEWPu8hTLDhT5g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

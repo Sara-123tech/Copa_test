@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MRZT_MOA7ke7IlscP_nGAg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/laureat-dashboard/fill-form" CVScreenId="6d4ddb2e-6556-4d5e-a413-14778d152b88" CvElementArea="1037, 630, 274, 61" CvTextArea="1103, 652, 162, 19" CvTextArgument="Aperçu et soumettre" CvType="Button" DesignTimeRectangle="1040, 632, 288, 56" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='button' class='sd-btn sd-navigation__preview-btn' aaname='Aperçu et soumettre' check:text='Aperçu et soumettre' /&gt;" Guid="d3ec6092-d4a1-49fe-a6dd-5b98cdf71061" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="ec0b7c953adbb5979200dc5a93a71615.png" xmlns="">06LbDryROKE2hga2j3hFRvQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

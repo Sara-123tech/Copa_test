@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'Suivant'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "jC3eXB99o0KTJw6uNahWkg",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/jC3eXB99o0KTJw6uNahWkg",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g",
+  "Created": "2025-04-14T16:01:15.8502208Z",
+  "Updated": "2025-04-14T16:01:15.8502208Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7ScqN3PD1USN5DKeBxv-VA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="e85be837-03cc-42a3-a623-e04363695f04" CvElementArea="480, 584, 22, 22" CvTextArea="518, 587, 113, 16" CvTextArgument="Cases à cocher" CvType="CheckBox" DesignTimeRectangle="463, 572, 367, 48" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='sv-list__item-body' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div' idx='3' parentid='convertTo' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='sv-list__item-body' type='' aaname='' parentid='convertTo' tag='DIV' check:innerText='Cases à cocher' /&gt;" Guid="8720c74f-3cb8-4b4a-85c5-df9656fe2e08" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d3971e8e38af249439571ad9143a3398.png" xmlns="">06IoVb0ZLwUeBtVtQhWVFOw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

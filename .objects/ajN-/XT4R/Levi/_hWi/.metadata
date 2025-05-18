@@ -1,0 +1,14 @@
+﻿{
+  "Name": "soumis",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "_hWiMTh3uEaSgq0NxfkUYg",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/_hWiMTh3uEaSgq0NxfkUYg",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-15T18:20:56.4573333Z",
+  "Updated": "2025-04-15T18:20:56.4573333Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

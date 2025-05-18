@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kppUSSRz3UKgFBTZooCtiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="f00faa4e-b309-4203-adcc-ff2e83298fa9" CvElementArea="445, 509, 485, 47" CvType="InputBox" DesignTimeRectangle="446, 504, 484, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id=':rq:' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':rq:' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq' placeholder='Prénom' aaname='' /&gt;" Guid="28b8a4ed-0ce1-4230-8fcc-e6bbac0d0d48" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f00faa4e-b309-4203-adcc-ff2e83298fa9" CvTextArea="445, 486, 58, 15" CvTextArgument="Prénom" CvType="Text" DesignTimeRectangle="446, 484, 484, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;p' idx='3' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='MuiTypography-root MuiTypography-body2 css-d8k775' tag='P' aaname='Prénom' check:innerText='Prénom' /&gt;" Guid="48c17b7c-2882-4450-95c1-6040877931a0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="dcbac508e7df6ee3d50a17ee16df1c09.png" xmlns="">0fpHYgK34bU6F7p5hcAP0vg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

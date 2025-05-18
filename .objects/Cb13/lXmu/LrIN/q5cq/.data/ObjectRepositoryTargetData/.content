@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aJpo1j2RF0iT4PN_7OQaAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures" CVScreenId="16c12d90-513c-437e-9046-bca8d75f875f" CvTextArea="1245, 494, 63, 13" CvTextArgument="Voir détails" CvType="Text" DesignTimeRectangle="1228, 476, 98, 53" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='9' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-q34dxg' tag='TD' aaname='' check:innerText='Voir détails' /&gt;" Guid="e7e57b7e-e255-4eb5-bc36-0b1cbe01b311" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="16c12d90-513c-437e-9046-bca8d75f875f" CvTextArea="1245, 494, 63, 13" CvTextArgument="Voir détails" CvType="Text" DesignTimeRectangle="1238, 490, 78, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='no-underline bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-2 py-1 rounded-full text-xs flex items-center justify-center' aaname='Voir détails' check:innerText='Voir détails' /&gt;" Guid="e801857f-64bf-4dea-babe-5dac820d2a65" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="1103, 482, 115, 40" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='1 janvier 2026' tableRow='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='1 janvier 2026' type='' tag='DIV' class='flex items-center space-x-2' check:innerText='1 janvier 2026' /&gt;" Guid="ef6ef734-61d9-45b2-9ece-2cd9d0b1274e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a9286b40078789b602bda910ffcda415.png" xmlns="">05_xsl1NGz06-3C1DoMIGuQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

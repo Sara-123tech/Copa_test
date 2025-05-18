@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DashboardListe des appe…",
+  "Type": "Element",
+  "Id": "KufU6SZZaU6aown8xmYlew",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/KufU6SZZaU6aown8xmYlew",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-05-15T15:14:00.6341627Z",
+  "Updated": "2025-05-15T15:14:00.6341627Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

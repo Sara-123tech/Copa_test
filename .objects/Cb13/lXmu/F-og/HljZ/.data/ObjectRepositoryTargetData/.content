@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Abx0bEg-00yfEMKc97vQSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="7dbd26e8-f631-41cd-a762-fb293840b57b" CvTextArea="66, 350, 204, 15" CvTextArgument="Liste des appels à candidature" CvType="Text" DesignTimeRectangle="23, 338, 263, 42" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Liste des appels à candidature' tag='A' type='' class='no-underline py-[10px] flex gap-2 my-1 ml-3 mr-2 pl-3 transition-all duration-300 text-[#030303] hover:bg-gradient-to-r from-[#8e8c8c26] from-5% via-[#f3f2f2] via-30% to-white to-100% hover:border-l-[#777474] border-l-[#fff] border-l-4 border-[#FFF3F1] hover:animate-bg' check:innerText='Liste des appels à candidature' /&gt;" Guid="a830f47d-9268-45d3-a165-61a70508e95a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4a208b365f4bab77b816113ce45cfc37.png" xmlns="">07pVQF2ejk0yICW_DOpyg4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

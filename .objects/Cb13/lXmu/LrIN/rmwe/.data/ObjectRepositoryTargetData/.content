@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vSqtSdvde0SOFanrNsigQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures" CVScreenId="c4a74a4d-8d8c-4854-abd0-54e17e3a23e6" CvTextArea="1245, 494, 64, 13" CvTextArgument="Voir détails" CvType="Text" DesignTimeRectangle="1238, 490, 78, 24" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='no-underline bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-2 py-1 rounded-full text-xs flex items-center justify-center' aaname='Voir détails' check:innerText='Voir détails' /&gt;" Guid="b19cbb01-e710-4741-b734-31aadcf343de" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c4a74a4d-8d8c-4854-abd0-54e17e3a23e6" CvTextArea="1245, 494, 64, 13" CvTextArgument="Voir détails" CvType="Text" DesignTimeRectangle="1228, 476, 98, 53" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-q34dxg' tag='TD' aaname='' check:innerText='Voir détails' /&gt;" Guid="1dc29338-339f-45fc-b0db-09ff30927fa9" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="c4a74a4d-8d8c-4854-abd0-54e17e3a23e6" CvTextArea="1245, 494, 64, 13" CvTextArgument="Voir détails" CvType="Text" DesignTimeRectangle="1245, 494, 64, 13" ElementType="Text" Guid="586df1be-8895-4cb5-a9e1-f53e6021d60f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ba05184efa6fbfc09d159e6c1b699394.png" xmlns="">0MJsndZ-fU0Op2t2g4NytBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

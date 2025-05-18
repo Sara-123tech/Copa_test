@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JE9iN9jk5keV2O6RPoMmiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="cc21acd9-04ab-4cb1-adde-cffb6fb08ff5" CvTextArea="1266, 549, 62, 15" CvTextArgument="Modifier" CvType="Text" DesignTimeRectangle="1223, 540, 135, 36" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl tabindex='-1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl tabindex='-1' tag='LI' type='' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters flex gap-2 items-center css-1km1ehz' aaname='' check:innerText='Modifier' /&gt;" Guid="321394da-aa65-4ae1-8801-71bd160c41b2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cc21acd9-04ab-4cb1-adde-cffb6fb08ff5" CvTextArea="1266, 549, 62, 15" CvTextArgument="Modifier" CvType="Text" DesignTimeRectangle="1267, 546, 61, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl class='mb-0' idx='2' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl class='mb-0' type='' tag='P' aaname='Modifier' check:innerText='Modifier' /&gt;" Guid="38e88c05-cb63-429f-a3f1-935aca3a5941" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c9fdec3962e414bcbfcc81a6d95df8ad.png" xmlns="">0MUiv1IYSmUCOBGexz2YdQA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MLU60A57z0SKeoLxgXnCFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" CVScreenId="f1d388d0-14ab-4066-87f4-3ff0e1b507e6" CvElementArea="342, 446, 978, 116" CvType="InputBox" DesignTimeRectangle="344, 449, 976, 114" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='p-2 w-full border rounded-lg' placeholder='Ajoutez un commentaire...' aaname='' /&gt;" Guid="d7de2e47-4fe5-4c14-aee3-0d63f22e182f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f1d388d0-14ab-4066-87f4-3ff0e1b507e6" CvTextArea="342, 425, 291, 17" CvTextArgument="Veuillez ajouter votre commentaire:" CvType="Text" DesignTimeRectangle="344, 421, 288, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='root' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='root' tag='LABEL' type='' class='font-semibold text-[#0976BC] text-lg' aaname='Veuillez ajouter votre commentaire:' check:innerText='Veuillez ajouter votre commentaire:' /&gt;" Guid="138b1d85-4d4e-4e11-b03b-aaf3ecdca75c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="efbc33e84d6e58dbd5aa0e6ad6b2e23a.png" xmlns="">0CQ9KhJywsE234G81yhQQYA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

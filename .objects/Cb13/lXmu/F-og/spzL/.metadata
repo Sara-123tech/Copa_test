@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Titre de l'appel à cand…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "spzLQwiC-02BdBTjXdHwsw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/spzLQwiC-02BdBTjXdHwsw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g",
+  "Created": "2025-05-13T11:07:19.0861253Z",
+  "Updated": "2025-05-13T11:07:19.0861253Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

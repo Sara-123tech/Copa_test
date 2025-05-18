@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Valider",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "7BC2qkI-80ueY9nKtwKS0g",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/7BC2qkI-80ueY9nKtwKS0g",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/QdBpCEtDrUG6pSIAZ1DB5Q",
+  "Created": "2025-05-13T15:48:52.0403936Z",
+  "Updated": "2025-05-13T15:48:52.0403936Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

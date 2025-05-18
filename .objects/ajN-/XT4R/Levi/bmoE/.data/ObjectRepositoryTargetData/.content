@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4loHkjrFfUybEQufxeD9fA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="0bd4ef9f-6445-4f97-b3df-567340845ffd" CvTextArea="461, 677, 136, 18" CvTextArgument="Unites de gestions" CvType="Text" DesignTimeRectangle="446, 668, 484, 36" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl idx='6' tabindex='-1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tabindex='-1' tag='LI' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz' aaname='Unites de gestions' check:innerText='Unites de gestions' /&gt;" Guid="f167e087-c48f-46a3-ba55-4d189d4a8bb8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0bd4ef9f-6445-4f97-b3df-567340845ffd" CvTextArea="461, 677, 136, 18" CvTextArgument="Unites de gestions" CvType="Text" DesignTimeRectangle="461, 677, 135, 18" ElementType="Text" Guid="5a62af7b-5eb0-4c2a-acaa-0ffe011e13fb" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a6468422062c924198bef1f1d0b8d9a1.png" xmlns="">0o7TVi94n_E2Ey2jf6wdTEg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

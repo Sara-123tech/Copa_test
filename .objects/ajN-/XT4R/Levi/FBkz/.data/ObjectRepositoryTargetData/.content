@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OKyzQQLTHkyh-Q8DIbbe1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="8072114a-7301-417c-a5a4-be8908b0ccb4" CvElementArea="1102, 240, 244, 42" CvType="Button" DesignTimeRectangle="1104, 242, 240, 38" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Inviter un nouvel utilisateur' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Inviter un nouvel utilisateur' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-4 py-2 rounded-md mb-0 flex items-center font-medium css-1ujsas3' check:innerText='Inviter un nouvel utilisateur' /&gt;" Guid="bcb68bf0-eda9-4753-bb2b-2dfeb3910417" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="37f3d179d3e12850426982de5855fd53.png" xmlns="">0aKbAXEUTCUiJ5OuDZCcS-Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

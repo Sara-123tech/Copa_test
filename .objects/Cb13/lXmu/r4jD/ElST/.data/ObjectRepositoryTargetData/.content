@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Fxs6iA50Dke4MUeATXdKQg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="8e35c022-7485-49a0-9498-4e62923a56be" CvTextArea="876, 342, 61, 16" CvTextArgument="Général" CvType="Text" DesignTimeRectangle="878, 340, 59, 22" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='sp_960' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sp_960' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' aaname='Général' check:innerText='Général' /&gt;" Guid="5c31b843-d62c-48c4-a8a0-b71ecdffdca8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="257e3a54ef9487e3fd6cc0ee0495d834.png" xmlns="">0p8a5ztqN2kWBPw5MIAuCdA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

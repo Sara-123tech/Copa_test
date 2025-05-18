@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fz5hcPrF9UC3z03PPpVjZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/laureat-dashboard/fill-form" CVScreenId="0a147d30-7aa7-4d3d-9b7b-def550864d32" CvElementArea="877, 289, 413, 54" CvType="InputBox" DesignTimeRectangle="880, 292, 408, 48" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl aria-label='Q2' aria-role='combobox' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Q2' aria-role='combobox' tag='DIV' type='' class='sd-input sd-dropdown sd-dropdown--empty' aaname='' /&gt;" Guid="f37d9260-76e2-456d-959d-f637bfeca1bd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0a147d30-7aa7-4d3d-9b7b-def550864d32" CvTextArea="879, 256, 23, 18" CvTextArgument="Q2" CvType="Text" DesignTimeRectangle="880, 253, 22, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Q2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Q2' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Q2' /&gt;" Guid="c618ce8c-cec9-4f3d-8046-619956d7c28b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7ee6e851de947b74f93951b5dad80548.png" xmlns="">0ATabueL8y0imSO526DF9bg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

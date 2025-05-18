@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QfZ5j6_WFEKRoctH4gOa-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures" CVScreenId="eb9ce396-4ee3-4a62-9f27-d0acabb2794b" CvElementArea="1127, 305, 219, 51" CvTextArea="1177, 322, 144, 16" CvTextArgument="Assigner un évaluateur" CvType="Button" DesignTimeRectangle="1127, 308, 217, 46" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Assigner un évaluateur' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assigner un évaluateur' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary px-4 py-2 gap-2 rounded-md mb-0 flex items-center font-medium hover:bg-[#065A94] transition-colors duration-300 css-1ujsas3' check:innerText='Assigner un évaluateur' /&gt;" Guid="dff23781-437a-4d50-b373-29ad5fb3fb42" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="536fed91a55201a6f71cfa63a51b5587.png" xmlns="">01nCJnxEYOEOEVmHVtZfxfQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

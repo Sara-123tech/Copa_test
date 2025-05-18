@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Coordonnateurs",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "Hn1UaTyzfkGO8KA-KOEo3g",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/Hn1UaTyzfkGO8KA-KOEo3g",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-15T15:22:55.0665196Z",
+  "Updated": "2025-04-15T15:22:55.0665196Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NrROki6NSE-7xmiqODEdBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs/update/e16df225-09a8-4412-9d5b-3a73bf07233d" CVScreenId="8dd17c51-f216-4976-94d8-af2e2d1fbc3e" CvTextArea="859, 568, 44, 15" CvTextArgument="Goma" CvType="Text" DesignTimeRectangle="844, 559, 475, 36" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl tabindex='-1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl tabindex='-1' tag='LI' type='' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-1km1ehz' aaname='Goma' check:innerText='Goma' /&gt;" Guid="06bf5088-189f-4971-9573-8b2729d298d0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="b1c548c4487b5ecbd1e7219418885f8e.png" xmlns="">0Ix3VLlfc10eFS18N23MA3g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

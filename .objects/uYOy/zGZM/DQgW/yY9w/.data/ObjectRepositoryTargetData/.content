@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tf3kX-AKeUmiaZCnDb5xtw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/162/update" CVScreenId="fba5ef93-5a58-4071-98c0-64c5080c07ac" CvTextArea="667, 416, 47, 15" CvTextArgument="Item 1" CvType="Text" DesignTimeRectangle="668, 412, 47, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aaname='Item 1' aria-label='content editable' aria-role='textbox' parentid='sq_4907' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Item 1' aria-label='content editable' aria-role='textbox' parentid='sq_4907' tag='SPAN' type='' class='sv-string-editor' /&gt;" Guid="36025522-80cf-4a86-ba48-f4cd7f454405" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="b09f25152140fdb6e0aeed91349fa176.png" xmlns="">0jW-bY9CpikOdEThnadM0nA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

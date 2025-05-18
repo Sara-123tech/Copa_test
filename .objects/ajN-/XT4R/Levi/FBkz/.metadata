@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Inviter un nouvel utili…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "FBkz1-RqLkybyozl7jPV0g",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/FBkz1-RqLkybyozl7jPV0g",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-14T17:03:04.9108893Z",
+  "Updated": "2025-04-14T17:03:04.9108893Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

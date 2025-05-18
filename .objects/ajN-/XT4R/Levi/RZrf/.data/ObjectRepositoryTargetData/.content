@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="U9lVXNWUTEOoL3q390yPpQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="f5ba3202-0b40-4bfe-bdc5-e0bc71899a80" CvElementArea="1156, 517, 44, 27" CvType="Icon" DesignTimeRectangle="1166, 510, 42, 42" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl idx='2' isleaf='1' tableCol='7' tableRow='3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='' isleaf='1' type='' class='MuiTouchRipple-root css-w0pj6f' tag='SPAN' /&gt;" Guid="43754708-ce03-4c2f-a42d-60c06955d079" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJ2SURBVFhH7ZdNa1NBFIbzN9TupIIuROxKENf9BYIurAj+BVtsBKkNtlYEBRUpVgQ/duLCalqhi0KpV9RyW69FW4larSaYkGzynRzzjhlSyiHOzD1dCPeFlwwzZ+55cuYjNzH6TxSBSisClVYEKq0IVFrioM1mU1laoUE1WKPRYC0F7gyq4er1Oj3yftOZ+ynqS6xSz9CyMtrowxhiNLSrnEA1JCD6Eh9o17nlrkYMYsPAWoMiESo09GSDhepmzMFcF9jYtZe/6OqsmSdmftKV5A/qv/6RBTGxK2yMA2LdgpxIbtLA1GcWwMYPX2Wst4ExqKrmi++078IKm9zG2LO1Wk3BmsoMtF3NU3fX2MQufrCYttoCRqC6mkfHAzapiwem1lVVhUE3afz5BvXG+aQuPjwaULVaNV5+M9DWso9Nf6Pdg3xSF/e0nlWpVCRB/+7PsWdfxUFLpZLx6bcC7R322aQuPjSyIg3aWfojCTnQk3dWpZe+c5hO3H7PJnXx5NyXHThM7esp8XSd9p5fYhPb+OBFnwqFgvz1pC987NPjN96xyW18M/lJ7U+rC9/0paRT1TU6dmmRBTDx2cklyufz9j+h7c9/Ct8cD8YByGQydPrWaxakmzEHc/UhMq0mZPU+igdjuZAonU7T6GOPDsTfslBbjRjEYg7mOr3mtT+NtRU2l8tREAQUvzdP/ZcXaP/wG9oz6CujjT6MIQaxrpBQqL8i2GfFYpGy2SylUinyfZ88z1NGG30YQ4zeky6QkBMopGFRIUDgTiyXywoKRht9GENMGEjIGVQLyTU0Zz0eVqFBt0sKbLvEQXdKEai0IlBpRaCyIvoDAELlCN74JjEAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f5ba3202-0b40-4bfe-bdc5-e0bc71899a80" CvTextArea="395, 523, 57, 13" CvTextArgument="BJ saara" CvType="Text" DesignTimeRectangle="386, 502, 150, 59" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-q34dxg' aaname='BJ saara' check:innerText='BJ saara' /&gt;" Guid="856b24d8-8c3d-4eb6-ba87-803b439e0aec" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="48f48df63c98ea79eea1a92c028d5e99.png" xmlns="">072u3zhIWJEWynP8b1zh5Kg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

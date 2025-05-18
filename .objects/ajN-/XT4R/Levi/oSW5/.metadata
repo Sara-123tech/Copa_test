@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Libellé 'Liste des formulaires'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oSW5qel7TU-hTBAnimYYqw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/oSW5qel7TU-hTBAnimYYqw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-12T10:07:10.2268736Z",
+  "Updated": "2025-04-12T10:07:10.2268736Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

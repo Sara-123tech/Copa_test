@@ -1,0 +1,434 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="email" Type="InArgument(x:String)" />
+    <x:Property Name="password" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>login_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Azure.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="login" sap:VirtualizedContainerService.HintSize="653,671" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+      <Flowchart.Variables>
+        <Variable x:TypeArguments="x:Boolean" Name="botton_connecter" />
+      </Flowchart.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <av:Point x:Key="ShapeLocation">65,25</av:Point>
+          <av:Size x:Key="ShapeSize">50,50</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">115,50 145,50 145,60 295,60</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Flowchart.StartNode>
+        <x:Reference>__ReferenceID0</x:Reference>
+      </Flowchart.StartNode>
+      <FlowStep x:Name="__ReferenceID0">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">295,25</av:Point>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,3427" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V2">
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Faire" sap:VirtualizedContainerService.HintSize="452,3210" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="418,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+                <ui:UiElementExists DisplayName="Element Exists 'A  /auth/login'" Exists="[botton_connecter]" sap:VirtualizedContainerService.HintSize="418,139" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
+                  <ui:UiElementExists.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c51c33d7-56b1-4465-bc18-ec3d55394c4b" InformativeScreenshot="e162a0e644d0f66b7f41629d340ecb09" Selector="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;&lt;webctrl aaname='Se connecter' tag='A' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:UiElementExists.Target>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:UiElementExists>
+                <If Condition="[botton_connecter=True]" sap:VirtualizedContainerService.HintSize="418,2952" sap2010:WorkflowViewState.IdRef="If_2">
+                  <If.Then>
+                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,1073" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Se connecter''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com" CVScreenId="a0273419-9004-4b42-852b-dcffc9fff2ab" CvElementArea="1081, 195, 145, 44" CvTextArea="1105, 208, 96, 15" CvTextArgument="Se connecter" CvType="Button" DesignTimeRectangle="1083, 197, 141, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Se connecter' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Se connecter' tag='A' type='' class='bg-[#0976BC] text-white no-underline rounded-full px-4 py-2 hover:bg-[#065A94] transition-colors duration-300' check:innerText='Se connecter' /&gt;" Guid="32bb5fb8-346f-46e6-b02a-05c461199c02" InformativeScreenshot="19ac063d675dee917fbb6356cb480380.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''Adresse e-mail''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="DebuggerApi" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Text="[email]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="9b01b5f4-9835-4e02-b3a6-6f5c957a479f" CvElementArea="432, 428, 514, 57" CvType="InputBox" DesignTimeRectangle="432, 430, 512, 54" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='rounded-[10px]  border  w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-24' placeholder='Entrer votre e-mail' aaname='' /&gt;" Guid="e3588bef-b61b-4ad7-8ad5-5dabbbbdf36d" InformativeScreenshot="2d2ce2fe0b5ed6509a4bff3454af5a17.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="9b01b5f4-9835-4e02-b3a6-6f5c957a479f" CvTextArea="430, 401, 111, 15" CvTextArgument="Adresse e-mail" CvType="Text" DesignTimeRectangle="432, 398, 512, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='font-semibold' aaname='Adresse e-mail' check:innerText='Adresse e-mail' /&gt;" Guid="c99dd6b5-e363-4071-870a-f080a9883507" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''Mot de passe''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_14" InteractionMode="DebuggerApi" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Text="[password]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="52d35c62-af35-4be1-9fb0-700fdf9f7b60" CvElementArea="432, 530, 512, 57" CvType="InputBox" DesignTimeRectangle="432, 532, 512, 54" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='rounded-[10px]  border  w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-24' placeholder='Entrer votre mot de passe *' aaname='' /&gt;" Guid="fc231693-35c2-4428-b856-b5fc66f8aa33" InformativeScreenshot="3df54c6dc8ab3d4bec55e2dfc8d29e3e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="52d35c62-af35-4be1-9fb0-700fdf9f7b60" CvTextArea="431, 503, 98, 18" CvTextArgument="Mot de passe" CvType="Text" DesignTimeRectangle="432, 500, 512, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' type='' class='font-semibold' check:innerText='Mot de passe' /&gt;" Guid="754f52bb-90e8-4188-a814-13e6d8a1adeb" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Se connecter''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="790aeb15-ab49-4cd4-8f79-84330e6766de" CvElementArea="432, 640, 511, 38" CvTextArea="648, 653, 80, 12" CvTextArgument="Se connecter" CvType="Button" DesignTimeRectangle="432, 642, 512, 35" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='w-full bg-secondary-color hover:bg-[#065A94] text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline' aaname='Se connecter' check:innerText='Se connecter' /&gt;" Guid="68837597-014a-4abe-8b36-f7560bcd8875" InformativeScreenshot="8e61a8bd192272cff600cb12effa5023.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,1748" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Mon espace''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com" CVScreenId="33ff4ac1-1a92-4adf-b08c-74ece9539b18" ContentHash="DlybEG9KgUGxsuUO-E6aWQ" CvElementArea="1087, 195, 141, 45" CvTextArea="1112, 208, 89, 18" CvTextArgument="Mon espace" CvType="Button" DesignTimeRectangle="1089, 197, 135, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mon espace' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mon espace' tag='A' type='' class='bg-[#0976BC] text-white no-underline rounded-full px-4 py-2 hover:bg-[#065A94] transition-colors duration-300 max-w-fit' check:innerText='Mon espace' /&gt;" Guid="951b2e2a-e1eb-403f-9b6f-fa4c46d34cad" InformativeScreenshot="5643cba7771bb42c3cd65d88ee6ef5b7.png" Reference="8swNdh3PLEyBzjmt8JxIWw/u4nVPGj2wUqLPbWEJuUsSQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''SVG''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="c791a87e-2634-4a7c-a3b2-8f2bbe2e5ffb" ContentHash="XKyMFfnXyUKozG1ecOYIFA" CvElementArea="1093, 160, 161, 43" CvType="InputBox" DesignTimeRectangle="1216, 172, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='basic-button' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='basic-button' tag='svg' type='' class='' aaname='' /&gt;" Guid="a56f0e22-81d3-4438-86cc-1171841ee837" InformativeScreenshot="a811ee81d1e1a3ab736c0c9aa25b386c.png" Reference="8swNdh3PLEyBzjmt8JxIWw/Zw_hsm8WnUu2FJJ0oiZp0w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Déconnexion''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_30" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="c791a87e-2634-4a7c-a3b2-8f2bbe2e5ffb" ContentHash="N4gZ5dihG0GhBqFUp-NyUw" CvElementArea="1104, 232, 242, 50" CvTextArea="1158, 248, 57, 17" CvTextArgument="Appels à" CvType="Button" DesignTimeRectangle="1097, 255, 153, 39" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl tabindex='-1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl tabindex='-1' tag='LI' type='' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-15qlszp' aaname='Déconnexion' check:innerText='Déconnexion' /&gt;" Guid="5f95f54f-409d-494b-8f43-bf30cab53138" InformativeScreenshot="115ada57cbaebe07024ef956669453bf.png" Reference="8swNdh3PLEyBzjmt8JxIWw/Zxz8YjYFoEO_J8arv1sncg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Se connecter''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,225" sap2010:WorkflowViewState.IdRef="NClick_31" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com" CVScreenId="a0273419-9004-4b42-852b-dcffc9fff2ab" CvElementArea="1081, 195, 145, 44" CvTextArea="1105, 208, 96, 15" CvTextArgument="Se connecter" CvType="Button" DesignTimeRectangle="1083, 197, 141, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Se connecter' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Se connecter' tag='A' type='' class='bg-[#0976BC] text-white no-underline rounded-full px-4 py-2 hover:bg-[#065A94] transition-colors duration-300' check:innerText='Se connecter' /&gt;" Guid="32bb5fb8-346f-46e6-b02a-05c461199c02" InformativeScreenshot="19ac063d675dee917fbb6356cb480380.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''Adresse e-mail''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_15" InteractionMode="DebuggerApi" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Text="[email]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="9b01b5f4-9835-4e02-b3a6-6f5c957a479f" CvElementArea="432, 428, 514, 57" CvType="InputBox" DesignTimeRectangle="432, 430, 512, 54" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='rounded-[10px]  border  w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-24' placeholder='Entrer votre e-mail' aaname='' /&gt;" Guid="e3588bef-b61b-4ad7-8ad5-5dabbbbdf36d" InformativeScreenshot="2d2ce2fe0b5ed6509a4bff3454af5a17.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="9b01b5f4-9835-4e02-b3a6-6f5c957a479f" CvTextArea="430, 401, 111, 15" CvTextArgument="Adresse e-mail" CvType="Text" DesignTimeRectangle="432, 398, 512, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='font-semibold' aaname='Adresse e-mail' check:innerText='Adresse e-mail' /&gt;" Guid="c99dd6b5-e363-4071-870a-f080a9883507" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into ''Mot de passe''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_16" InteractionMode="DebuggerApi" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Text="[password]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="52d35c62-af35-4be1-9fb0-700fdf9f7b60" CvElementArea="432, 530, 512, 57" CvType="InputBox" DesignTimeRectangle="432, 532, 512, 54" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='rounded-[10px]  border  w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-24' placeholder='Entrer votre mot de passe *' aaname='' /&gt;" Guid="fc231693-35c2-4428-b856-b5fc66f8aa33" InformativeScreenshot="3df54c6dc8ab3d4bec55e2dfc8d29e3e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="52d35c62-af35-4be1-9fb0-700fdf9f7b60" CvTextArea="431, 503, 98, 18" CvTextArgument="Mot de passe" CvType="Text" DesignTimeRectangle="432, 500, 512, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' type='' class='font-semibold' check:innerText='Mot de passe' /&gt;" Guid="754f52bb-90e8-4188-a814-13e6d8a1adeb" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Se connecter''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_32" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b259b4f8-fe71-4760-a9d9-3e1794f86f16" Version="V4">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="790aeb15-ab49-4cd4-8f79-84330e6766de" CvElementArea="432, 640, 511, 38" CvTextArea="648, 653, 80, 12" CvTextArgument="Se connecter" CvType="Button" DesignTimeRectangle="432, 642, 512, 35" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='w-full bg-secondary-color hover:bg-[#065A94] text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline' aaname='Se connecter' check:innerText='Se connecter' /&gt;" Guid="68837597-014a-4abe-8b36-f7560bcd8875" InformativeScreenshot="8e61a8bd192272cff600cb12effa5023.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                            <uix:TargetAnchorable.PointOffset>
+                              <uix:PointOffset />
+                            </uix:TargetAnchorable.PointOffset>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="djfhaADoLEOrcRFxCdgNjQ" IconBase64="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" InformativeScreenshot="32600f2691bee3e8559c432a7ae75b86.jpg" Reference="8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g" Selector="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" Url="https://copa-transforme.dev.addinn-group.com/" Version="V2" />
+          </uix:NApplicationCard.TargetApp>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </uix:NApplicationCard>
+      </FlowStep>
+    </Flowchart>
+  </Sequence>
+</Activity>

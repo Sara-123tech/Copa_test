@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KcesVeAKG02g3FEtmyq9tA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures" CVScreenId="ab19e8b2-518f-4fa4-9807-c83e781098b7" CvElementArea="1049, 271, 297, 40" CvType="Button" DesignTimeRectangle="1051, 272, 293, 38" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Créer un nouvel appel à candidature' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-4 py-2 rounded-md mb-0 flex items-center font-medium css-1ujsas3' check:innerText='Créer un nouvel appel à candidature' /&gt;" Guid="f43636f9-be93-4465-a3f8-11fc58f714f7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e4f63621a3b2104057eb8077649d5cc7.png" xmlns="">0UyQGXDYO4Eq_giwvhAsEsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

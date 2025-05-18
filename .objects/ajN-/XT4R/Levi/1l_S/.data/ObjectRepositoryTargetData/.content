@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a-pVwmkW6kStoimDvCKKsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" CVScreenId="65d03fc9-f3ba-4ac1-8a33-c8375812fe8b" CvElementArea="1269, 454, 36, 36" CvType="Icon" DesignTimeRectangle="1271, 456, 32, 32" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Actions' tableRow='2' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Actions' type='' tag='IMG' class='' /&gt;" Guid="4d721475-86b7-4b5a-bf18-97e8e1739fea" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI9SURBVFhHzZjfStxAFId7Wwr2CQp9mXrjW+g7tPTSglfeeCn1AeojCNqCvfMPUjEXBdduIwqCtmxx1812Jzmeb2hiFIVOcnaTHxzITmbmfJszyZwzz6RlajdQmokMEpHORSrRaSrffqp1be1Q54xOncSXqfSTzPssqwDixmgssttx0htox1Qk07ZJGL5uRiL7J877LEMVQNDuaYf+MJPS/YkKn7vH6lOjkqsA4hFCPU3xx4kGSyRXAURcCdO0hc+j2P37VQJiwRHfUDHE6SLAqoQan7w8uWoBjRWi++tGljZ/eIt/D31biDyQ+s5VC2gwcjL/KZKZ95/lpdrCeuTbQmQKdK3OZ1f35cW7LW9c95sESsapLH/pyqvFbXn94ausbMf6Xbmb/H9kCoQAOOslcv4nkZELg0HmQAxhHWMVhtsD1ZUpEP3/ukyuE+eN6ypzmAEBsPH9SuY+HsgbfcO4pi1EpkA8FUCev93yBhhtITIHmls7KICAaxQoDxkggDUeMvoDwFPBuK4yhxmQhcyBGNKqDyPbBdvGWW8YvI8hUyAA2FDZWNlg2WjZcENkCkSq8TD9ICUJkSkQyRhJGckZSdp80wka6Sppa57Cks7apbCaaIcCIYbUTfKpZnMVQEdaOjdVBkWPlUEnWqxRtFX5l3VEcRpf3nktgDhk2KGs1VJ6GsILvvY6lNKPALEWKfzpAPVEDxt0bqLBA3jysAFxA1rqfI5jWGy8Aabmj2NSv0SIShkG3QNqg1oGJHILE8zLUu+3RVkAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="65d03fc9-f3ba-4ac1-8a33-c8375812fe8b" CvTextArea="1159, 405, 43, 14" CvTextArgument="Action" CvType="Text" DesignTimeRectangle="1145, 386, 181, 57" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Action' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Action' type='' tag='TH' class='MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1bigob2' check:innerText='Action' /&gt;" Guid="56cc53e1-1ce4-41d0-a480-b893ecf2f11f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="52e449147d93b19dbc5cbd28836cd6b6.png" xmlns="">0pY4YhV_q_UqBc4vSue7sFg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

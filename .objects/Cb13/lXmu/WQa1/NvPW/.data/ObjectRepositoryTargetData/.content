@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LYeZDBUef0-2hmaYaAFBPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" CVScreenId="c6010080-66a9-4504-a8f3-3217da6e4aad" CvElementArea="424, 445, 52, 52" CvTextArea="445, 462, 8, 16" CvTextArgument="1" CvType="Button" DesignTimeRectangle="426, 447, 48, 48" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='sq_178' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sq_178' tag='LABEL' type='' class='sd-rating__item sd-rating__item--allowhover sd-rating__item--fixed-size' aaname='' check:innerText='1' /&gt;" Guid="b30e2d90-23bc-4ac5-bdcd-216264f213a1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c6010080-66a9-4504-a8f3-3217da6e4aad" CvTextArea="423, 334, 180, 16" CvTextArgument="Potentiel de croissance" CvType="Text" DesignTimeRectangle="424, 332, 179, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Potentiel de croissance' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Potentiel de croissance' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Potentiel de croissance' /&gt;" Guid="3abbff3b-edff-4bda-be81-edb74ee7baef" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="278599c01270209375f8e6d3e41333e7.png" xmlns="">02qYqN9rOH0aCbpP6TDKfrQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

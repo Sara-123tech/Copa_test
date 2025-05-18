@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Voir détails(2)",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "q5cqp0R-qEGzLxuIcYpGEg",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/q5cqp0R-qEGzLxuIcYpGEg",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LrIN_m2e10Ws9gQPRoHRwg",
+  "Created": "2025-04-10T13:26:51.9766628Z",
+  "Updated": "2025-04-10T13:26:51.9766628Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

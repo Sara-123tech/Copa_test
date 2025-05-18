@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mettre à jour",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6eMOprXJpkCqeCMNVQK_og",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/6eMOprXJpkCqeCMNVQK_og",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-15T17:30:58.0118474Z",
+  "Updated": "2025-04-15T17:30:58.0118474Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

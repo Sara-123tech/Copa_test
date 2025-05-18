@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BoX0bLV-0ku7HZrFOzsCYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="cb1809df-cebe-4215-a306-00b84b29eab9" CvElementArea="1198, 588, 148, 56" CvTextArea="1234, 608, 75, 16" CvTextArgument="Sauvegarder" CvType="Button" DesignTimeRectangle="1200, 590, 144, 52" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Sauvegarder' parentid='root' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Sauvegarder' parentid='root' tag='BUTTON' type='' class='bg-[#0976BC] text-white rounded-[8px] py-3 px-9' check:innerText='Sauvegarder' /&gt;" Guid="707e2967-0750-46db-a797-3bc58622bf32" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="58e536067bedb69bafceaea09a5a3f1b.png" xmlns="">0RHNQDHvsl0Or6zYOwUpMig</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

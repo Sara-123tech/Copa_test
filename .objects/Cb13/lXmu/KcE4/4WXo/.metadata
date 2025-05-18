@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Retour au site",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "4WXoFEdvkE2wpQ453r4k9w",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/4WXoFEdvkE2wpQ453r4k9w",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/KcE4XJ0nRE6MgWMT_J8J_g",
+  "Created": "2025-04-17T08:34:25.8777594Z",
+  "Updated": "2025-04-17T08:34:25.8777594Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

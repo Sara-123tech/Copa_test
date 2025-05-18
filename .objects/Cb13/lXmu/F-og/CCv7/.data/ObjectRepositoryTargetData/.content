@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7PUdjCfniUaurJCO0L6xDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme" CVScreenId="dfc04742-9b3d-4ba7-9ce4-04b3944a7cae" CvElementArea="845, 452, 442, 60" CvType="InputBox" DesignTimeRectangle="844, 453, 442, 58" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='date' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='date' class='w-full p-3 border border-gray-400 rounded-md' aaname='' /&gt;" Guid="7ab627dc-a426-41e4-9162-b1d7a2abecae" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dfc04742-9b3d-4ba7-9ce4-04b3944a7cae" CvTextArea="843, 428, 186, 15" CvTextArgument="Date limite de soumission" CvType="Text" DesignTimeRectangle="844, 425, 442, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Date limite de soumission' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Date limite de soumission' tag='LABEL' type='' class='block text-gray-800 text-base mb-1' check:innerText='Date limite de soumission' /&gt;" Guid="1208ac9a-2fb3-44cd-a265-af75b735c7f8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8e36c6a10c9a4124bf1f7168861175cd.png" xmlns="">0IXrtLGbT0UW8gy3SYWERCQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

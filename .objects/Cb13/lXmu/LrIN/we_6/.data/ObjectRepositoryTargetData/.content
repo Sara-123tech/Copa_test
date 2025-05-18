@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-Ru3rhwPA0idgStPY4xpiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures" CVScreenId="c4a74a4d-8d8c-4854-abd0-54e17e3a23e6" CvTextArea="1245, 494, 64, 13" CvTextArgument="Voir détails" CvType="Text" DesignTimeRectangle="1228, 476, 98, 53" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-q34dxg' tag='TD' aaname='' check:innerText='Voir détails' /&gt;" Guid="d997ee47-dd90-41c1-b304-2eecc0881f8f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c4a74a4d-8d8c-4854-abd0-54e17e3a23e6" CvTextArea="1245, 494, 64, 13" CvTextArgument="Voir détails" CvType="Text" DesignTimeRectangle="1238, 490, 78, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='no-underline bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-2 py-1 rounded-full text-xs flex items-center justify-center' aaname='Voir détails' check:innerText='Voir détails' /&gt;" Guid="e50f69c0-05e0-4972-b5d5-e466fd305e59" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6f04d97c484481fa9c3a8dbbbb9e80a8.png" xmlns="">0cpTNSwfxWESyx09OERR_OQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

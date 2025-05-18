@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2qtAXNPmgkSUeEEhfEGJbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme" CVScreenId="5c55cd9d-06ac-4307-97f4-61dc7d627fd3" CvElementArea="377, 471, 444, 120" CvType="InputBox" DesignTimeRectangle="378, 472, 442, 120" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' class='ck-blurred ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline' aaname='' /&gt;" Guid="a6865961-a7eb-4c0f-86c3-e3a76ef7ae95" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5c55cd9d-06ac-4307-97f4-61dc7d627fd3" CvTextArea="377, 408, 149, 18" CvTextArgument="Description/ Objectif" CvType="Text" DesignTimeRectangle="378, 405, 442, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Description/ Objectif' tag='LABEL' type='' class='block text-gray-800 text-base mb-1' check:innerText='Description/ Objectif' /&gt;" Guid="90dbf6de-321d-484e-994f-d31c545820a6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a5991b6047a4fe4a48cbf70f38184916.png" xmlns="">0AgJut054WUGdmxH36WHLlQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cn4GCAbOnUWq5KWyAq1QlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" DesignTimeRectangle="650, 469, 48, 48" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='5' parentid='sq_180' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='sq_180' tag='LABEL' class='sd-rating__item sd-rating__item--allowhover sd-rating__item--fixed-size' aaname='' check:innerText='5' /&gt;" Guid="db6034ea-4f7f-499b-b6ea-7f3f7dbc9425" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="04a1d04f-c850-434a-93f5-63356884dffd" CvElementArea="378, 339, 908, 222" CvType="InputBox" DesignTimeRectangle="424, 378, 206, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Expérience et organisation' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Expérience et organisation' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Expérience et organisation' /&gt;" Guid="86c71a12-a447-413a-afd6-a6b84c27554f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="e979415cc0f2484a5e8f85de86909e71.png" xmlns="">0mTSJx9HQsU-ntJ6UfXcg7w</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

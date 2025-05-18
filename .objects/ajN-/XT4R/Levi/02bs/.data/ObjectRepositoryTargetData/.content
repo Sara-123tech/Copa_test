@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fVzuJaVo5EujYPikpscAmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures" CVScreenId="eb9ce396-4ee3-4a62-9f27-d0acabb2794b" CvElementArea="353, 506, 21, 21" CvType="CheckBox" DesignTimeRectangle="342, 495, 42, 42" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='PrivateSwitchBase-input css-1m9pwf3' aaname='' /&gt;" Guid="57d24a95-ee72-4af9-8675-e7e6c65fc7c6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="eb9ce396-4ee3-4a62-9f27-d0acabb2794b" CvTextArea="395, 507, 102, 17" CvTextArgument="Ndongala Scoty" CvType="Text" DesignTimeRectangle="386, 494, 144, 43" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-q34dxg' aaname='Ndongala  Scoty ' check:innerText='Ndongala Scoty' /&gt;" Guid="659833b1-d552-4160-9c2b-57ed2683e96d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8fe1384e711a7af6af2d092a4958426e.png" xmlns="">0YY9AWs0stUKezJmjHiVppA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MI9NiXIh2EKWHSiFhziDXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="d216934a-cffc-484f-927b-441b1d36216c" CvElementArea="378, 401, 22, 22" CvType="CheckBox" DesignTimeRectangle="379, 401, 22, 22" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='svc-toolbox__item-container' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='3' parentid='scrollableDiv-designer' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='svc-toolbox__item-container' type='' aaname='' parentid='scrollableDiv-designer' tag='SPAN' /&gt;" Guid="822f079f-503b-41fb-9a9e-edd76d0fd7f9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d50d7beb1a0341978fd1051ee84382ca.png" xmlns="">0mHqZqL4wDka6u-GpZBP8Pw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

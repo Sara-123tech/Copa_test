@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F0IJIvuMlU218bmRYRnVeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme/assign-form" DesignTimeRectangle="354, 368, 239, 46" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='default-search' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='default-search' tag='INPUT' type='search' class='py-[12px] ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg focus:outline-none w-full' placeholder='Rechercher par titre formulaire' aaname='' /&gt;" Guid="fb09e14e-261c-4474-a838-eff669c4da23" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7baa38622778494b98f61ed4a8b3aea8.png" xmlns="">0ImJKGr1wb06rJtOwho4F2A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

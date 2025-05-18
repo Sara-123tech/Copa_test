@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LdBn-SOk50iRurwJ54bnSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-utilisateurs" DesignTimeRectangle="296, 217, 1072, 973" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' class='mx-auto px-6 py-3 bg-card text-foreground bg-slate-100 h-full' parentid='root' tag='DIV' aaname='' check:innerText='Liste des utilisateurs&amp;#xA;&amp;#xA;Suivez et gérez les informations et les activités des clients.&amp;#xA;&amp;#xA;Inviter un' /&gt;" Guid="5110d74f-c690-4224-bfac-dd0df1181b9c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="7, 147, 288, 581" FuzzySelectorArgument="&lt;webctrl type='' parentid='root' tag='DIV' class=' text-[15px] h-screen md:overflow-hidden overflow-auto md:hover:overflow-auto pb-10 pl-1 border-r-[1px] border-[#ccc]' aaname='' check:innerText='Dashboard&amp;#xA;Liste des appels à candidature&amp;#xA;Liste des formulaires&amp;#xA;Liste des utilisateurs&amp;#xA;Liste des' /&gt;" Guid="a20bf9fd-b5a7-4273-91e4-3b7a6f2bb16e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd31b821503e50473980e4582c0eaabc.png" xmlns="">0GkkqGmgo0E2vLU9tzeiPyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TakeScreenshot</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

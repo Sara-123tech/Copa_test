@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6kyNMyRI5E-GJkhaniSFmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="8860300f-2015-4cf3-93dc-e3678c3c010e" CvElementArea="431, 571, 512, 38" CvTextArea="648, 584, 80, 12" CvTextArgument="Se connecter" CvType="Button" DesignTimeRectangle="432, 573, 512, 35" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='w-full bg-secondary-color hover:bg-[#065A94] text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline' aaname='Se connecter' check:innerText='Se connecter' /&gt;" Guid="61efd07a-edd2-44ae-aad0-184dea907f39" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="8e61a8bd192272cff600cb12effa5023.png" xmlns="">0jkZWfgESYU6HPEDLlco2ag</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

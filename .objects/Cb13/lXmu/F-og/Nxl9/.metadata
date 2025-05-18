@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'Statut'",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "Nxl9MBJ3AUq6_o_2TSDEPQ",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/Nxl9MBJ3AUq6_o_2TSDEPQ",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g",
+  "Created": "2025-04-14T15:54:53.3870472Z",
+  "Updated": "2025-04-14T15:54:53.3870472Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

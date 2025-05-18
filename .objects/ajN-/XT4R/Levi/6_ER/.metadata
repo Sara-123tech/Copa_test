@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Vrai/Faux (Booléen)",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "6_ERDLZrekecd3ouBbW1xw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/6_ERDLZrekecd3ouBbW1xw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-10T13:55:28.9389865Z",
+  "Updated": "2025-04-10T13:55:28.9389865Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

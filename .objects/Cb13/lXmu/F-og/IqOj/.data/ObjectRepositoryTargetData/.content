@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dbeIhWFvp0uz9GcznQOQ0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme" CVScreenId="86f8969e-b683-4fab-b2e2-99ccdcdef565" CvTextArea="388, 567, 90, 18" CvTextArgument="Technologie" CvType="Text" DesignTimeRectangle="378, 556, 442, 40" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-role='option' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='option' tag='DIV' type='' class='select__option select__option--is-focused css-d7l1ni-option' aaname='Technologie' check:innerText='Technologie' /&gt;" Guid="82bd0348-681f-4ee1-8f73-018cadcb4281" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2ed6935ff82f747032c3848ada58a821.png" xmlns="">0ycVBWPLHdE-LxdSGPGUAQA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GXWGqUFSREeAv65n31FyfA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/liste-candidatures" CVScreenId="e4928414-16e2-4376-ae46-0e50ccf7c17a" CvElementArea="284, 435, 17, 17" CvType="CheckBox" DesignTimeRectangle="276, 426, 33, 34" DesignTimeScaleFactor="0.800000011920929" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='PrivateSwitchBase-input css-1m9pwf3' aaname='' /&gt;" Guid="a048d126-6327-421e-9659-ff26171f326c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1001, 276, 350, 37" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='12' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='flex gap-[10px]' parentid='root' tag='DIV' aaname='' check:innerText='Assignement automatique&amp;#xA;Assigner un évaluateur' /&gt;" Guid="09c063f9-8e6f-4861-9051-4966065d1c34" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="e4928414-16e2-4376-ae46-0e50ccf7c17a" CvTextArea="323, 395, 88, 12" CvTextArgument="Nom du candidat" CvType="Text" DesignTimeRectangle="311, 381, 160, 45" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Nom du candidat' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Nom du candidat' type='' tag='TH' class='MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1bigob2' check:innerText='Nom du candidat' /&gt;" Guid="d433f7ed-9c0e-4fa5-8ec9-6b9854977035" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9209d9e1f927dd898c9100398496e36f.png" xmlns="">0HYeuYaYmn0qlnG6FboGL0A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

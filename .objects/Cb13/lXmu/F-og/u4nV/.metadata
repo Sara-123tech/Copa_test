@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mon espace",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "u4nVPGj2wUqLPbWEJuUsSQ",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/u4nVPGj2wUqLPbWEJuUsSQ",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g",
+  "Created": "2025-04-14T14:21:16.5098103Z",
+  "Updated": "2025-04-14T14:21:16.5098103Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TYkSDFNCdUWXpMiRxsIT9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="8dcf6f8b-4493-40b2-b7f1-5c2f0b0918b0" CvElementArea="693, 484, 19, 20" CvTextArea="595, 487, 95, 15" CvTextArgument="Champ de saisie" CvType="ArrowButton" DesignTimeRectangle="588, 478, 130, 32" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' parentid='convertTo' tag='BUTTON' type='button' class='svc-survey-element-toolbar__item svc-survey-element-toolbar__item--with-text' aaname='Champ de saisie' check:innerText='Champ de saisie' /&gt;" Guid="c7640571-075d-4001-a667-d587d8c955fd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8dcf6f8b-4493-40b2-b7f1-5c2f0b0918b0" CvTextArea="595, 487, 95, 15" CvTextArgument="Champ de saisie" CvType="Text" DesignTimeRectangle="596, 486, 94, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='convertTo' tag='SPAN' type='' class='svc-survey-element-toolbar-item__title svc-survey-element-toolbar-item__title--with-icon' aaname='Champ de saisie' check:innerText='Champ de saisie' /&gt;" Guid="bb16b12f-4e12-4468-9c9b-a738a59ed6ab" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-7" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="6c1632608687be08de7f9152a1733259.png" xmlns="">04Q1wBlEODEeFz2PcJBmuWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

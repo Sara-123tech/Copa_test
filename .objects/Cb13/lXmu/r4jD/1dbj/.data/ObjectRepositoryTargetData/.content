@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eCsED7Bgxki0-vEmA8tv2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires/create-form" CVScreenId="d14c643e-8efb-40d4-8fc5-dfc757540293" CvElementArea="874, 406, 31, 29" CvType="Icon" DesignTimeRectangle="880, 411, 20, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl parentid='svd-grid-hide' tag='use' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='svd-grid-hide' tag='use' type='' class='' aaname='' /&gt;" Guid="a93960c1-db2f-4942-b0f3-f9a2d936096f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACZSURBVEhL7dRNCsMgEIbh3H/lCfwBL6iiLid8kgFrCdSaKYT0BReJ4AOauJFw9wOUUm1wDwRijG2ctQTknMk5R1prSikdb19bAmqt5L1vCwABOLYEoB6x1r4hywAakVLKMXMRgHoE58LIKcAT3w4gQPmZ+x0w2/QWzSR6yOPil36m/eIiPxoAY4zcVYFCCHKX3Sf9gemEAaIdeph0TmgheQ0AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="00a100c8babb712b9fc469e199e9ea64.png" xmlns="">0GLA_bHmQ1UGMmmc-rZu5jA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

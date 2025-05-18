@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Appels à candidature",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "clWb39mmhkOt5GtwJmlAJw",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/clWb39mmhkOt5GtwJmlAJw",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/KcE4XJ0nRE6MgWMT_J8J_g",
+  "Created": "2025-04-17T08:36:02.7362419Z",
+  "Updated": "2025-04-17T08:36:02.7362419Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

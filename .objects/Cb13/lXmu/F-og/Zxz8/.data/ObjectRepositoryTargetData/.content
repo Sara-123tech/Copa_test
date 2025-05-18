@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N4gZ5dihG0GhBqFUp-NyUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard" CVScreenId="c791a87e-2634-4a7c-a3b2-8f2bbe2e5ffb" CvElementArea="1104, 232, 242, 50" CvTextArea="1158, 248, 57, 17" CvTextArgument="Appels à" CvType="Button" DesignTimeRectangle="1097, 255, 153, 39" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;webctrl tabindex='-1' tag='LI' /&gt;" FuzzySelectorArgument="&lt;webctrl tabindex='-1' tag='LI' type='' class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-15qlszp' aaname='Déconnexion' check:innerText='Déconnexion' /&gt;" Guid="5f95f54f-409d-494b-8f43-bf30cab53138" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="115ada57cbaebe07024ef956669453bf.png" xmlns="">0_ckliBjmDUePqB-DnSp7hQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

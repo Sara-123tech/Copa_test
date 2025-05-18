@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k8p4XId1rUS8E76CamK4GQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/evaluateur-dashboard/candidatures/17227" CVScreenId="c6010080-66a9-4504-a8f3-3217da6e4aad" CvElementArea="1048, 469, 52, 53" CvTextArea="1068, 487, 12, 15" CvTextArgument="4" CvType="Button" DesignTimeRectangle="1050, 471, 48, 48" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl idx='4' parentid='sq_179' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='sq_179' tag='LABEL' class='sd-rating__item sd-rating__item--allowhover sd-rating__item--fixed-size' aaname='' check:innerText='4' /&gt;" Guid="62bec04d-639e-44f2-af43-232ce120ce18" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c6010080-66a9-4504-a8f3-3217da6e4aad" CvTextArea="879, 335, 56, 19" CvTextArgument="Impact" CvType="Text" DesignTimeRectangle="880, 332, 54, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Impact' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Impact' tag='SPAN' type='' class='sv-string-viewer sv-string-viewer--multiline' check:innerText='Impact' /&gt;" Guid="b875e7fb-d10a-4bed-9e4c-859db48748d0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="88db2ec78ce0afee14b70ec07c971644.png" xmlns="">0Xvpgd69WMUSSbi784c4HzQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

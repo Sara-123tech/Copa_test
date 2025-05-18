@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pUlQSQ3Qrkq2zVUE02BTHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/Appels-%C3%A0-candidatures/create-programme/assign-form" CVScreenId="b9713e15-e610-442d-baca-70483be3d114" CvElementArea="1211, 500, 76, 31" CvTextArea="1222, 508, 50, 14" CvTextArgument="Assigner" CvType="Button" DesignTimeRectangle="1200, 501, 72, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Assigner' tableRow='2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Assigner' type='' tag='BUTTON' class='no-underline bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-[12px] py-[6px] rounded-full text-xs' check:innerText='Assigner' /&gt;" Guid="abecb7a0-e29d-4ede-9c97-07734b013db6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b9713e15-e610-442d-baca-70483be3d114" CvTextArea="1216, 449, 43, 14" CvTextArgument="Action" CvType="Text" DesignTimeRectangle="1190, 430, 120, 57" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Action' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Action' type='' tag='TH' class='MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1bigob2' check:innerText='Action' /&gt;" Guid="4df3481c-7521-4fcb-9059-8cc1b051c0d5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="58991e3869179ea183fb651fdd91d28a.png" xmlns="">0Lmef3B__aUKgM7ddx6yWAA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

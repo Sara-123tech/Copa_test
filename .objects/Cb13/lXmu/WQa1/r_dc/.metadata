@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Evaluation",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "r_dcpEtBMESYCmo82MdfwQ",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/r_dcpEtBMESYCmo82MdfwQ",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/WQa1MC3XPU21xiimBQDjdw",
+  "Created": "2025-04-16T18:27:56.1872994Z",
+  "Updated": "2025-04-16T18:27:56.1872994Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

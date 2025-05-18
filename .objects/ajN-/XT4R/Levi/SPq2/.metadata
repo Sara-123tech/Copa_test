@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Modifier",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "SPq2qqCQ2U--RAS1GonOAA",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/SPq2qqCQ2U--RAS1GonOAA",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LeviJ7F_ZEWlAKVu1nVWLg",
+  "Created": "2025-04-15T17:29:53.9929294Z",
+  "Updated": "2025-04-15T17:29:53.9929294Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "image",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "uJAgXG9t00SElcZxmHAcGg",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/uJAgXG9t00SElcZxmHAcGg",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/LrIN_m2e10Ws9gQPRoHRwg",
+  "Created": "2025-04-10T13:11:22.8346543Z",
+  "Updated": "2025-04-10T13:11:22.8346543Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CYKUAwNjVkyeJuXrZnf9UA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/auth/login" CVScreenId="372f3d23-65b5-4e83-9061-8b923cbbbcb3" CvElementArea="430, 461, 515, 57" CvType="InputBox" DesignTimeRectangle="432, 463, 512, 54" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='rounded-[10px]  border  w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-24' placeholder='Entrer votre mot de passe *' aaname='' /&gt;" Guid="e29ac0ee-bbf2-47f0-98a7-6975d84692d7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="372f3d23-65b5-4e83-9061-8b923cbbbcb3" CvTextArea="431, 434, 98, 18" CvTextArgument="Mot de passe" CvType="Text" DesignTimeRectangle="432, 431, 512, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' type='' class='font-semibold' check:innerText='Mot de passe' /&gt;" Guid="10027ca6-1b28-4376-93a0-39a85e62d359" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="372f3d23-65b5-4e83-9061-8b923cbbbcb3" CvTextArea="431, 434, 98, 18" CvTextArgument="Mot de passe" CvType="Text" DesignTimeRectangle="432, 431, 512, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mot de passe' tag='LABEL' type='' class='font-semibold' check:innerText='Mot de passe' /&gt;" Guid="889ebb19-44dd-4120-b9ab-fc6058f6b8da" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="4281d4c3b604a7649d1f43b4cdad12d4.png" xmlns="">0akR7ZrMxg0mMlmy9ROxLZw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

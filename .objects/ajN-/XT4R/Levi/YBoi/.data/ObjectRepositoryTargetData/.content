@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="e25AbuBj9E6O2A6qz_7jbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="copa-transforme.dev.addinn-group.com/unite_de_gestion-dashboard/formulaires" CVScreenId="dde7b121-ab70-4292-9f4f-e570913401b1" CvElementArea="1095, 236, 251, 41" CvType="Button" DesignTimeRectangle="1097, 238, 247, 38" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Créer un nouveau formulaire' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Créer un nouveau formulaire' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary bg-[#0976BC] hover:bg-[#065A94] transition-colors duration-300 text-white px-4 py-2 rounded-md mb-0 flex items-center font-medium no-underline css-1ujsas3' check:innerText='Créer un nouveau formulaire' /&gt;" Guid="05a33355-5ece-4de7-8c8f-8a6af65a2ba1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='COPA TRANSFORME RDC' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="38a1de80bd174a5f5f5024c4501686a4.png" xmlns="">0HsKfE_OEF0GFMWwRXbgBIg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Créer un nouvel appel à…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "UISWLVB_zUyQantRRvsbqg",
+  "Reference": "8swNdh3PLEyBzjmt8JxIWw/UISWLVB_zUyQantRRvsbqg",
+  "ParentRef": "8swNdh3PLEyBzjmt8JxIWw/F-ogU5mOFEqICApa36zx1g",
+  "Created": "2025-04-14T15:54:05.8880802Z",
+  "Updated": "2025-04-14T15:54:05.8880802Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
