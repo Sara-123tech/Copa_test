@@ -15,11 +15,11 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Download and Setup UiPath CLI
-      run: |
-        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-        Expand-Archive uipcli.zip -DestinationPath uipcli
-        $env:PATH += ";$PWD\uipcli"
-        echo "$PWD\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
+  run: |
+    Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
+    Expand-Archive uipcli.zip -DestinationPath uipcli
+    echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
+
 
     - name: Check UiPath CLI Version
       run: uipcli version
