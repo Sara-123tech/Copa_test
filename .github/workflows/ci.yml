@@ -25,17 +25,7 @@ jobs:
         # Ajouter le dossier uipcli au PATH pour simplifier les appels
         echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
-    # Étape 2 : Installer les packages NuGet requis par le projet
-    - name: 📥 Restore NuGet packages
-      shell: powershell
-      run: |
-        Write-Host "Restauration des packages NuGet..."
-        # Installer nuget.exe si pas déjà présent
-        if (-not (Test-Path nuget.exe)) {
-          Invoke-WebRequest -Uri "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe" -OutFile "nuget.exe"
-        }
-        # Restaurer les packages à partir du fichier project.json
-        .\nuget.exe restore project.json
+  
 
     # Étape 3 : Vérifier la version de la CLI (optionnel, pour debug)
     - name: ✅ Check UiPath CLI version
