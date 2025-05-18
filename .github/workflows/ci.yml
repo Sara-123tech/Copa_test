@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Download and Setup UiPath CLI
       run: |
@@ -28,7 +28,7 @@ jobs:
       run: uipcli pack "project.json" --output ./output
 
     - name: Upload Package as Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: uipath-package
         path: ./output/*.nupkg
