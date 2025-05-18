@@ -1,0 +1,34 @@
+name: Run UiPath Job (Windows)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-uipath-job:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download UiPath CLI
+        run: |
+          Invoke-WebRequest -Uri "https://uipathcli.blob.core.windows.net/public/uipath-win-x64.exe" -OutFile "uipath.exe"
+
+      - name: Authenticate with UiPath
+        run: |
+          ./uipath.exe auth login ^
+            --client-id "d5c8b7cc-b11c-4691-bb60-f7453855610c" ^
+            --client-secret ")Uglg4o*1ZTKuzHO" ^
+            --account "sarabeji123" ^
+            --tenant "DefaultTenant" ^
+            --profile "gh-profile"
+
+      - name: Start UiPath Job
+        run: |
+          ./uipath.exe automation jobs start ^
+            --folder-path "Default" ^
+            --process-name "Copa" ^
+            --profile "gh-profile"
