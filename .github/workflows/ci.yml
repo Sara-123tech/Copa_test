@@ -34,8 +34,8 @@ jobs:
         path: ./output/*.nupkg
 
     - name: 🔐 Authenticate to UiPath Orchestrator
-      run: |
       shell: cmd
+      run: |
         uipath.exe login ^
           --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
           --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
