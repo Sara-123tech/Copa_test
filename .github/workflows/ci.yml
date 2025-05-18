@@ -35,7 +35,7 @@ jobs:
 
     - name: 🔐 Authenticate to UiPath Orchestrator
       run: |
-        uipcli.exe login ^
+        uipath.exe login ^
           --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
           --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
           --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
