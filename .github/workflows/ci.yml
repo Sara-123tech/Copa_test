@@ -29,10 +29,10 @@ jobs:
       run: uipath version
 
     - name: 📁 Vérifie la présence de project.json dans Copa
-      run: dir ./Copa/project.json
+      run: dir ./copa/project.json
 
     - name: 🏗 Pack UiPath Project (dossier Copa)
-      run: uipath project pack --input-folder ./Copa --output-folder ./output --debug
+      run: uipath project pack --input-folder ./copa --output-folder ./output --debug
 
     - name: 📁 Afficher le contenu du dossier ./output (vérification)
       shell: powershell
