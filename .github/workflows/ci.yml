@@ -12,14 +12,14 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
     - name: Download and Setup UiPath CLI
-  run: |
-    Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-    Expand-Archive uipcli.zip -DestinationPath uipcli
-    echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
-
+      run: |
+        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
+        Expand-Archive uipcli.zip -DestinationPath uipcli
+        $env:PATH += ";$PWD\uipcli"
+        echo "$PWD\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
     - name: Check UiPath CLI Version
       run: uipcli version
@@ -28,7 +28,7 @@ jobs:
       run: uipcli pack "project.json" --output ./output
 
     - name: Upload Package as Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
         name: uipath-package
         path: ./output/*.nupkg
