@@ -11,36 +11,36 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - name: 📦 Checkout code
+      uses: actions/checkout@v4
 
-    - name: Download and Setup UiPath CLI
+    - name: 🔧 Download and Setup UiPath CLI
+      shell: powershell
       run: |
         Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-        Expand-Archive uipcli.zip -DestinationPath uipcli
-        $env:PATH += ";$PWD\uipcli"
-        echo "$PWD\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
+        Expand-Archive -Path uipcli.zip -DestinationPath uipcli
+        echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
-    - name: Check UiPath CLI Version
-      run: uipcli version
+    - name: ✅ Check UiPath CLI version
+      run: uipcli.exe version
 
-    - name: Pack UiPath project
-      run: uipcli pack "project.json" --output ./output
+    - name: 📁 Pack UiPath Project
+      run: uipcli.exe pack "project.json" --output ./output
 
-    - name: Upload Package as Artifact
-      uses: actions/upload-artifact@v3
+    - name: ☁️ Upload Package as Artifact
+      uses: actions/upload-artifact@v4
       with:
         name: uipath-package
         path: ./output/*.nupkg
 
-    - name: Authenticate to UiPath Orchestrator
+    - name: 🔐 Authenticate to UiPath Orchestrator
       run: |
-        uipcli login ^
+        uipcli.exe login ^
           --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
           --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
           --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
           --tenant "${{ secrets.UIPATH_TENANT }}" ^
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
-    - name: Push Package to Orchestrator
-      run: uipcli push ./output/*.nupkg
+    - name: 🚀 Push Package to Orchestrator
+      run: uipcli.exe push ./output/*.nupkg
