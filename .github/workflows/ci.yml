@@ -14,48 +14,37 @@ jobs:
     - name: 📦 Checkout code
       uses: actions/checkout@v4
 
-    # Étape 1 : Télécharger et décompresser UiPath CLI
     - name: 🔧 Download and Setup UiPath CLI
       shell: powershell
       run: |
-        Write-Host "Téléchargement de l’UiPath CLI depuis GitHub..."
         Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-        Write-Host "Décompression du package CLI..."
         Expand-Archive -Path uipcli.zip -DestinationPath uipcli
-        # Ajouter le dossier uipcli au PATH pour simplifier les appels
         echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
-  
-
-    # Étape 3 : Vérifier la version de la CLI (optionnel, pour debug)
     - name: ✅ Check UiPath CLI version
-      run: uipath.exe version
-      working-directory: ./uipcli
+      run: uipath version
 
-    # Étape 4 : Packager le projet UiPath
     - name: 📁 Pack UiPath Project
-      run: uipath.exe project pack --input-folder . --output-folder ./output
-      working-directory: ./uipcli
+      run: uipath project pack --input-folder . --output-folder ./output
 
-    # Étape 5 : Pousser le package vers Orchestrator
-    - name: 🔐 Authenticate to UiPath Orchestrator
-      shell: cmd
-      run: |
-        uipath.exe login ^
-          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
-          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
-          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
-          --tenant "${{ secrets.UIPATH_TENANT }}" ^
-          --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
-      working-directory: ./uipcli
+    - name: 📂 Liste les fichiers dans output
+      run: dir ./output
 
-    - name: 🚀 Push Package to Orchestrator
-      run: uipath.exe push ./output/*.nupkg
-      working-directory: ./uipcli
-
-    # Étape 6 : Upload du package comme artefact GitHub (optionnel)
     - name: ☁️ Upload Package as Artifact
       uses: actions/upload-artifact@v4
       with:
         name: uipath-package
         path: ./output/*.nupkg
+
+    - name: 🔐 Authenticate to UiPath Orchestrator
+      shell: cmd
+      run: |
+        uipath login ^
+          --client-id "%UIPATH_CLIENT_ID%" ^
+          --client-secret "%UIPATH_CLIENT_SECRET%" ^
+          --account-name "%UIPATH_ACCOUNT_LOGICAL_NAME%" ^
+          --tenant "%UIPATH_TENANT%" ^
+          --url "%UIPATH_ORCHESTRATOR_URL%"
+
+    - name: 🚀 Push Package to Orchestrator
+      run: uipath push ./output/*.nupkg
