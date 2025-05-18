@@ -14,7 +14,7 @@ jobs:
     - name: 📦 Checkout code
       uses: actions/checkout@v4
 
-    - name: 📁 Lister le contenu du dépôt
+    - name: 🧭 Afficher l'arborescence initiale
       shell: powershell
       run: Get-ChildItem -Recurse
 
@@ -25,25 +25,33 @@ jobs:
         Expand-Archive -Path uipcli.zip -DestinationPath uipcli
         echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
-    - name: ✅ Vérifier version de UiPath CLI
+    - name: ✅ Check UiPath CLI version
       run: uipath version
 
-    - name: 📥 Restore NuGet Packages
-      run: uipath restore ./copa/project.json --debug
+    - name: 📁 Vérifie la présence de project.json
+      run: dir project.json
 
-    - name: 📦 Pack UiPath Project
-      run: uipath project pack --input-folder ./copa --output-folder ./output --debug
+    - name: 🏗 Pack UiPath Project
+      run: uipath project pack --input-folder . --output-folder output --debug
 
-    - name: 📁 Vérifier le contenu du dossier output
-      run: dir ./output /s
+    - name: 📁 Afficher le contenu du dossier ./output (vérification)
+      shell: powershell
+      run: |
+        if (Test-Path "./output") {
+          Get-ChildItem ./output -Recurse
+        } else {
+          Write-Host "⚠️ Le dossier ./output n'existe pas. Le pack a échoué."
+          exit 1
+        }
 
-    - name: ☁️ Upload le package comme artefact
+    - name: ☁️ Upload Package as Artifact
+      if: success()
       uses: actions/upload-artifact@v4
       with:
         name: uipath-package
         path: ./output/*.nupkg
 
-    - name: 🔐 Authentification à UiPath Orchestrator
+    - name: 🔐 Authenticate to UiPath Orchestrator
       shell: cmd
       run: |
         .\uipcli\uipath.exe login ^
@@ -53,5 +61,5 @@ jobs:
           --tenant "${{ secrets.UIPATH_TENANT }}" ^
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
-    - name: 🚀 Push du package vers Orchestrator
+    - name: 🚀 Push Package to Orchestrator
       run: uipath push ./output/*.nupkg
