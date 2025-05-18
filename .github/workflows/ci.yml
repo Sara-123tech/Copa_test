@@ -28,13 +28,21 @@ jobs:
     - name: ✅ Check UiPath CLI version
       run: uipath version
 
-    - name: 📁 Vérifie la présence de project.json
-      run: dir project.json
+    - name: 📁 Vérifie la présence de project.json dans Copa
+      run: dir ./Copa/project.json
 
-    - name: 🏗 Pack UiPath Project
-      run: uipath project pack --input-folder . --output-folder output --debug
+    - name: 🏗 Pack UiPath Project (dossier Copa)
+      run: uipath project pack --input-folder ./Copa --output-folder ./output --debug
 
-  
+    - name: 📁 Afficher le contenu du dossier ./output (vérification)
+      shell: powershell
+      run: |
+        if (Test-Path "./output") {
+          Get-ChildItem ./output -Recurse
+        } else {
+          Write-Host "⚠️ Le dossier ./output n'existe pas. Le pack a échoué."
+          exit 1
+        }
 
     - name: ☁️ Upload Package as Artifact
       if: success()
