@@ -15,8 +15,8 @@ jobs:
       uses: actions/checkout@v4
 
     - name: 📁 Lister le contenu du dépôt
-  shell: powershell
-  run: Get-ChildItem -Recurse
+      shell: powershell
+      run: Get-ChildItem -Recurse
 
     - name: 🔧 Download and Setup UiPath CLI
       shell: powershell
