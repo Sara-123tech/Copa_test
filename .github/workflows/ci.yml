@@ -11,38 +11,59 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: 📦 Checkout code
+    # 1. Récupération du code
+    - name: 📦 Checkout repository
       uses: actions/checkout@v4
 
-    - name: 🔧 Download and Setup UiPath CLI
+    # 2. Installation du SDK .NET 6.0 (nécessaire à UiPath.Vision, UIAutomation 25.x, etc.)
+    - name: 📥 Setup .NET 6 SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.x'
+
+    # 3. Téléchargement et installation du UiPath CLI
+    - name: 🔧 Download UiPath CLI
       shell: powershell
       run: |
-        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-        Expand-Archive -Path uipcli.zip -DestinationPath uipcli
-        echo "${{ github.workspace }}\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
+        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile cli.zip
+        Expand-Archive -Path cli.zip -DestinationPath uipcli
 
-    - name: ✅ Check UiPath CLI version
+    # 4. Vérification du contenu racine (debug)
+    - name: 📁 Contenu racine du repo
+      run: dir .
+
+    # 5. Vérification de la version CLI
+    - name: ✅ UiPath CLI version
       run: .\uipcli\uipath.exe version
 
-    - name: 📁 Pack UiPath Project
-      # Le chemin "project.json" est relatif à la racine du repo (checkout)
-      run: .\uipcli\uipath.exe pack project.json --output ./output
+    # 6. Restauration des packages NuGet UiPath (indispensable)
+    - name: 📥 Restore UiPath packages
+      run: .\uipcli\uipath.exe restore project.json --debug
 
-    - name: ☁️ Upload Package as Artifact
+    # 7. Packaging du projet
+    - name: 📦 Pack UiPath project
+      run: .\uipcli\uipath.exe project pack --input-folder . --output-folder ./output --debug
+
+
+
+    # 9. Upload du package comme artefact GitHub
+    - name: ☁️ Upload package artefact
       uses: actions/upload-artifact@v4
       with:
         name: uipath-package
         path: ./output/*.nupkg
 
-    - name: 🔐 Authenticate to UiPath Orchestrator
-      shell: cmd
+    # 10. Authentification Orchestrator
+    - name: 🔐 UiPath Orchestrator login
+      shell: powershell
       run: |
-        .\uipcli\uipath.exe login ^
-          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
-          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
-          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
-          --tenant "${{ secrets.UIPATH_TENANT }}" ^
+        .\uipcli\uipath.exe login `
+          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" `
+          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" `
+          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" `
+          --tenant "${{ secrets.UIPATH_TENANT }}" `
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
-    - name: 🚀 Push Package to Orchestrator
+    # 11. Push du package vers Orchestrator
+    - name: 🚀 Push package to Orchestrator
       run: .\uipcli\uipath.exe push ./output/*.nupkg
