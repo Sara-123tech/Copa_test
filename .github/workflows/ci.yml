@@ -22,10 +22,10 @@ jobs:
         echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
     - name: ✅ Check UiPath CLI version
-      run: uipath.exe version
+      run: ./uipcli/uipath.exe version
 
     - name: 📁 Pack UiPath Project
-      run: uipath.exe pack "project.json" --output ./output
+      run: ./uipcli/uipath.exe pack "project.json" --output ./output
 
     - name: ☁️ Upload Package as Artifact
       uses: actions/upload-artifact@v4
@@ -36,7 +36,7 @@ jobs:
     - name: 🔐 Authenticate to UiPath Orchestrator
       shell: cmd
       run: |
-        uipath.exe login ^
+        .\uipcli\uipath.exe login ^
           --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
           --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
           --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
@@ -44,4 +44,4 @@ jobs:
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
     - name: 🚀 Push Package to Orchestrator
-      run: uipath.exe push ./output/*.nupkg
+      run: ./uipcli/uipath.exe push ./output/*.nupkg
