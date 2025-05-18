@@ -14,37 +14,58 @@ jobs:
     - name: 📦 Checkout code
       uses: actions/checkout@v4
 
+    # Étape 1 : Télécharger et décompresser UiPath CLI
     - name: 🔧 Download and Setup UiPath CLI
       shell: powershell
       run: |
-        # Télécharger l'archive UiPath CLI
+        Write-Host "Téléchargement de l’UiPath CLI depuis GitHub..."
         Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-        # Extraire dans un dossier
+        Write-Host "Décompression du package CLI..."
         Expand-Archive -Path uipcli.zip -DestinationPath uipcli
-        # Ajouter le dossier uipcli au PATH pour que les commandes soient reconnues
+        # Ajouter le dossier uipcli au PATH pour simplifier les appels
         echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
 
+    # Étape 2 : Installer les packages NuGet requis par le projet
+    - name: 📥 Restore NuGet packages
+      shell: powershell
+      run: |
+        Write-Host "Restauration des packages NuGet..."
+        # Installer nuget.exe si pas déjà présent
+        if (-not (Test-Path nuget.exe)) {
+          Invoke-WebRequest -Uri "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe" -OutFile "nuget.exe"
+        }
+        # Restaurer les packages à partir du fichier project.json
+        .\nuget.exe restore project.json
+
+    # Étape 3 : Vérifier la version de la CLI (optionnel, pour debug)
     - name: ✅ Check UiPath CLI version
-      run: ./uipcli/uipath.exe version
+      run: uipath.exe version
+      working-directory: ./uipcli
 
+    # Étape 4 : Packager le projet UiPath
     - name: 📁 Pack UiPath Project
-      run: ./uipcli/uipath.exe project pack --input-folder . --output-folder ./output
+      run: uipath.exe project pack --input-folder . --output-folder ./output
+      working-directory: ./uipcli
 
-    - name: ☁️ Upload Package as Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: uipath-package
-        path: ./output/*.nupkg
-
+    # Étape 5 : Pousser le package vers Orchestrator
     - name: 🔐 Authenticate to UiPath Orchestrator
       shell: cmd
       run: |
-        .\uipcli\uipath.exe login ^
+        uipath.exe login ^
           --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
           --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
           --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
           --tenant "${{ secrets.UIPATH_TENANT }}" ^
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
+      working-directory: ./uipcli
 
     - name: 🚀 Push Package to Orchestrator
-      run: ./uipcli/uipath.exe push ./output/*.nupkg
+      run: uipath.exe push ./output/*.nupkg
+      working-directory: ./uipcli
+
+    # Étape 6 : Upload du package comme artefact GitHub (optionnel)
+    - name: ☁️ Upload Package as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: uipath-package
+        path: ./output/*.nupkg
