@@ -14,55 +14,23 @@ jobs:
     - name: 📦 Checkout code
       uses: actions/checkout@v4
 
-    - name: 📂 Créer dossiers nécessaires
+    - name: 🔧 Télécharger et configurer UiPath CLI
       shell: powershell
       run: |
-        mkdir copa\uipcli
-        mkdir copa\output
+        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipathcli.zip"
+        Expand-Archive -Path "uipathcli.zip" -DestinationPath "uipcli"
 
-    - name: 🔧 Télécharger l'ancien UiPath CLI depuis MyGet
+    - name: 📦 Packager le projet UiPath
       shell: powershell
       run: |
-        nuget install UiPath.CLI.Windows -Version 1.0.7985.19721 `
-          -OutputDirectory "./copa/uipcli" `
-          -Source "https://www.myget.org/F/uipath-dev/api/v3/index.json"
+        ./uipcli/uipath.exe packages pack --input-folder ./copa --output-folder ./copa/output
 
-    - name: 📦 Pack UiPath Project
+    - name: 🔐 Authentification à Orchestrator
       shell: powershell
       run: |
-        ./copa/uipcli/UiPath.CLI.Windows.1.0.7985.19721/tools/uipcli.exe project pack `
-          --input-folder ./copa `
-          --output-folder ./copa/output `
-          --debug
+        ./uipcli/uipath.exe login --client-id "${{ secrets.UIPATH_CLIENT_ID }}" --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" --tenant "${{ secrets.UIPATH_TENANT }}" --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
-    - name: 📁 Vérifie que le package a bien été généré
+    - name: 🚀 Déployer le package vers Orchestrator
       shell: powershell
       run: |
-        if ((Get-ChildItem ./copa/output/*.nupkg -ErrorAction SilentlyContinue).Count -eq 0) {
-          Write-Error "❌ Aucun package généré dans ./copa/output"
-        } else {
-          Write-Host "✅ Package généré avec succès"
-        }
-
-    - name: ☁️ Upload Package as Artifact
-      if: success()
-      uses: actions/upload-artifact@v4
-      with:
-        name: uipath-package
-        path: ./copa/output/*.nupkg
-
-    - name: 🔐 Authentification Orchestrator
-      shell: powershell
-      run: |
-        ./copa/uipcli/UiPath.CLI.Windows.1.0.7985.19721/tools/uipcli.exe login `
-          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" `
-          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" `
-          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" `
-          --tenant "${{ secrets.UIPATH_TENANT }}" `
-          --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
-
-    - name: 🚀 Push Package vers Orchestrator
-      shell: powershell
-      run: |
-        ./copa/uipcli/UiPath.CLI.Windows.1.0.7985.19721/tools/uipcli.exe push `
-          ./copa/output/*.nupkg
+        ./uipcli/uipath.exe packages push --package-path ./copa/output/*.nupkg
