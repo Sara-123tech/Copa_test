@@ -27,8 +27,12 @@ jobs:
 
     - name: 📦 Packager le projet UiPath
       run: |
-        ./uipcli/uipath.exe automation project pack --input-folder ./copa --output-folder ./output --debug
+        ./uipcli/uipathcli.exe automation project pack --input-folder ./copa --output-folder ./output --debug
       shell: powershell
+    - name: 🧪 Test de UiPath CLI
+      run: ./uipcli/uipathcli.exe --version
+      shell: powershell
+  
 
     - name: 📁 Vérifier contenu du dossier ./output
       run: |
