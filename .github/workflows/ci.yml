@@ -14,31 +14,26 @@ jobs:
     - name: 📦 Checkout code
       uses: actions/checkout@v4
 
-    - name: 🧰 Install NuGet CLI
-      uses: nuget/setup-nuget@v1
-
-    - name: 🔽 Télécharger UiPath CLI depuis le flux officiel
+    - name: 📥 Télécharger UiPath CLI (.nupkg)
       run: |
-        nuget install UiPath.CLI.Windows -Source "https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json" -OutputDirectory uipcli
-
-    - name: 📦 Extraire le .nupkg (en renommant .zip)
+        Invoke-WebRequest -Uri "https://uipath.pkgs.visualstudio.com/Public.Feeds/_apis/packaging/feeds/UiPath-Official/nuget/packages/UiPath.CLI.Windows/versions/25.4.0/content" -OutFile uipcli.nupkg
       shell: powershell
+
+    - name: 📦 Extraire contenu de uipcli.nupkg
       run: |
-          $nupkg = Get-ChildItem -Path ./uipcli -Recurse -Filter *.nupkg | Select-Object -First 1
-          $zipPath = "$($nupkg.DirectoryName)\uipcli_temp.zip"
-          Copy-Item $nupkg.FullName -Destination $zipPath -Force
-          Expand-Archive -Path $zipPath -DestinationPath ./uipcli/cli -Force
+        mkdir uipcli
+        Expand-Archive -Path uipcli.nupkg -DestinationPath uipcli
+      shell: powershell
 
-
-    - name: 📂 Créer dossier ./output
+    - name: 📁 Créer dossier ./output
       run: mkdir output
+      shell: powershell
 
-    - name: 📦 Pack UiPath Project
-      run: |
-        ./uipcli/cli/tools/uipcli.exe automation pack --input-folder ./copa --output-folder ./output --debug
+    - name: 📦 Pack du projet UiPath
+      run: ./uipcli/tools/uipcli.exe automation project pack --input-folder ./copa --output-folder ./output --debug
+      shell: powershell
 
     - name: 📁 Vérifier contenu du dossier ./output
-      shell: powershell
       run: |
         if ((Get-ChildItem ./output/*.nupkg -ErrorAction SilentlyContinue).Count -eq 0) {
           Write-Error "❌ Aucun package généré dans ./output"
@@ -47,22 +42,25 @@ jobs:
           Write-Host "✅ Package généré avec succès"
           Get-ChildItem ./output
         }
+      shell: powershell
 
-    - name: ☁️ Upload Package as Artifact
+    - name: ☁️ Upload du package comme artefact
       uses: actions/upload-artifact@v4
       with:
         name: uipath-package
         path: ./output/*.nupkg
 
-    - name: 🔐 Authentification à UiPath Orchestrator
-      shell: cmd
+    - name: 🔐 Ajouter configuration d'authentification Orchestrator
       run: |
-        ./uipcli/cli/tools/uipcli.exe login ^
-          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
-          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
-          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
-          --tenant "${{ secrets.UIPATH_TENANT }}" ^
+        ./uipcli/tools/uipcli.exe config add --profile ci-profile `
+          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" `
+          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" `
+          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" `
+          --organization "${{ secrets.UIPATH_ORGANIZATION_NAME }}" `
+          --tenant "${{ secrets.UIPATH_TENANT }}" `
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
+      shell: powershell
 
-    - name: 🚀 Push Package vers Orchestrator
-      run: ./uipcli/cli/tools/uipcli.exe project push --file ./output/*.nupkg
+    - name: 🚀 Déployer le package vers Orchestrator
+      run: ./uipcli/tools/uipcli.exe automation deploy --profile ci-profile --package ./output/*.nupkg
+      shell: powershell
