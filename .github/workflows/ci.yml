@@ -11,10 +11,13 @@ jobs:
     steps:
     - name: 📦 Checkout du code
       uses: actions/checkout@v4
-
-    - name: 📥 Télécharger UiPath CLI depuis le flux NuGet officiel
+    
+    
+    - name: 📥 Télécharger UiPath CLI depuis le feed UiPath officiel (MyGet)
       run: |
-        nuget install UiPath.CLI.Windows -Version 25.4.9239.19674 -OutputDirectory ./cli
+        nuget install UiPath.CLI.Windows -Version 25.4.9239.19674 `
+          -Source https://www.myget.org/F/uipath-dev/api/v3/index.json `
+          -OutputDirectory ./cli
       shell: powershell
 
     - name: 📂 Lister le contenu de ./cli
