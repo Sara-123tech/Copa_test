@@ -43,9 +43,9 @@ jobs:
         run: |
           ./copa/uipcli/uipath.exe packages restore --input-folder ./copa
 
-      - name: Pack UiPath project
+      - name: Pack Project
         run: |
-          ./copa/uipcli/uipath.exe project pack --input-folder ./copa --output-folder ./copa/output --debug
+          ./copa/uipcli/uipath.exe automation project pack --path ./copa --output ./copa/output --debug
 
       - name: Check .nupkg output
         run: |
