@@ -30,7 +30,14 @@ jobs:
 
       - name: Move uipath.exe to copa/uipcli
         run: |
-          Copy-Item -Path "tempcli/uipathcli-windows-amd64/uipath.exe" -Destination "copa/uipcli/uipath.exe"
+          $exePath = Get-ChildItem -Recurse -Path "tempcli" -Filter "uipath.exe" | Select-Object -First 1
+          if ($exePath -eq $null) {
+          Write-Error "❌ uipath.exe introuvable après extraction"
+            }
+          else {
+          Copy-Item -Path $exePath.FullName -Destination "copa/uipcli/uipath.exe"
+           Write-Host "✅ uipath.exe copié dans copa/uipcli"
+             }
 
       - name: Restore dependencies
         run: |
