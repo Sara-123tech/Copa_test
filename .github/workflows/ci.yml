@@ -18,40 +18,37 @@ jobs:
       shell: powershell
       run: Get-ChildItem -Recurse
 
-    - name: 🔧 Download and Setup UiPath CLI
+    - name: 🔍 Vérifie présence de project.json
       shell: powershell
       run: |
-        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-        Expand-Archive -Path uipcli.zip -DestinationPath uipcli
-        echo "$((Get-Location).Path)\uipcli" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
+        $file = Get-ChildItem -Recurse -Filter project.json
+        if (-not $file) {
+          Write-Error "❌ Aucun fichier project.json trouvé."
+          exit 1
+        } else {
+          Write-Host "✅ project.json trouvé : $($file.FullName)"
+        }
 
-    - name: ✅ Check UiPath CLI version
-      run: uipath version
-
-    - name: 📁 Vérifie la présence de project.json dans Copa
-      run: dir ./project.json
-
-    - name: 📂 Créer le dossier ./output s'il n'existe pas
+    - name: 📂 Créer dossier ./output
+      shell: powershell
       run: mkdir output
 
-    - name: 🏗 Pack UiPath Project (dossier Copa)
-      run: uipath project pack --input-folder ./Copa --output-folder ./output --debug
+    - name: 📦 Pack UiPath Project
+      shell: powershell
+      run: ./copa/uipath.exe project pack --input-folder ./copa --output-folder ./output --debug
 
-    - name: 🏗 Pack UiPath Project (dossier Copa)
-      run: uipath project pack --input-folder ./ --output-folder ./output --debug
-
-    - name: 📁 Afficher le contenu du dossier ./output (vérification)
+    - name: 📁 Vérifier contenu du dossier ./output
       shell: powershell
       run: |
-        if (Test-Path "./output") {
-          Get-ChildItem ./output -Recurse
-        } else {
-          Write-Host "⚠️ Le dossier ./output n'existe pas. Le pack a échoué."
+        if ((Get-ChildItem ./output/*.nupkg -ErrorAction SilentlyContinue).Count -eq 0) {
+          Write-Error "❌ Aucun package généré dans ./output"
           exit 1
+        } else {
+          Write-Host "✅ Package généré avec succès"
+          Get-ChildItem ./output
         }
 
     - name: ☁️ Upload Package as Artifact
-      if: success()
       uses: actions/upload-artifact@v4
       with:
         name: uipath-package
@@ -60,7 +57,7 @@ jobs:
     - name: 🔐 Authenticate to UiPath Orchestrator
       shell: cmd
       run: |
-        .\uipcli\uipath.exe login ^
+        .\copa\uipath.exe login ^
           --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
           --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
           --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
@@ -68,4 +65,5 @@ jobs:
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
     - name: 🚀 Push Package to Orchestrator
-      run: uipath push ./output/*.nupkg
+      shell: powershell
+      run: ./copa/uipath.exe push ./output/*.nupkg
