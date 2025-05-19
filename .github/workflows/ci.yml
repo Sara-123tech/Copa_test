@@ -1,36 +1,49 @@
-name: UiPath CI Pipeline
+name: Build UiPath Project
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: windows-latest
 
     steps:
-    - name: 📦 Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: 🔧 Télécharger et configurer UiPath CLI
-      shell: powershell
-      run: |
-        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipathcli.zip"
-        Expand-Archive -Path "uipathcli.zip" -DestinationPath "uipcli"
+      - name: Create directories
+        run: |
+          New-Item -ItemType Directory -Force -Path "copa/uipcli"
+          New-Item -ItemType Directory -Force -Path "copa/output"
+          New-Item -ItemType Directory -Force -Path "tempcli"
 
-    - name: 📦 Packager le projet UiPath
-      shell: powershell
-      run: |
-        ./uipcli/uipath.exe packages pack --input-folder ./copa --output-folder ./copa/output
+      - name: Download UiPath CLI zip
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "tempcli/uipcli.zip"
 
-    - name: 🔐 Authentification à Orchestrator
-      shell: powershell
-      run: |
-        ./uipcli/uipath.exe login --client-id "${{ secrets.UIPATH_CLIENT_ID }}" --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" --tenant "${{ secrets.UIPATH_TENANT }}" --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
+      - name: Extract CLI
+        run: |
+          Expand-Archive -Path "tempcli/uipcli.zip" -DestinationPath "tempcli"
 
-    - name: 🚀 Déployer le package vers Orchestrator
-      shell: powershell
-      run: |
-        ./uipcli/uipath.exe packages push --package-path ./copa/output/*.nupkg
+      - name: Move uipath.exe to copa/uipcli
+        run: |
+          Copy-Item -Path "tempcli/uipathcli-windows-amd64/uipath.exe" -Destination "copa/uipcli/uipath.exe"
+
+      - name: Restore dependencies
+        run: |
+          ./copa/uipcli/uipath.exe packages restore --input-folder ./copa
+
+      - name: Pack UiPath project
+        run: |
+          ./copa/uipcli/uipath.exe project pack --input-folder ./copa --output-folder ./copa/output --debug
+
+      - name: Check .nupkg output
+        run: |
+          if ((Get-ChildItem ./copa/output/*.nupkg -ErrorAction SilentlyContinue).Count -eq 0) {
+            Write-Error "❌ Aucun package généré dans ./copa/output"
+          } else {
+            Write-Host "✅ Package UiPath généré avec succès"
+          }
