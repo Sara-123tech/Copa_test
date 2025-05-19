@@ -18,51 +18,49 @@ jobs:
       shell: powershell
       run: Get-ChildItem -Recurse
 
-    - name: 🔧 Download and Setup UiPath CLI
+    - name: 🔧 Télécharger et déplacer UiPath CLI dans ./copa/uipcli
       shell: powershell
       run: |
-        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile uipcli.zip
-        Expand-Archive -Path uipcli.zip -DestinationPath uipcli
+        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipcli.zip"
+        Expand-Archive -Path "uipcli.zip" -DestinationPath "tempcli"
+        New-Item -ItemType Directory -Path "copa/uipcli" -Force
+        Copy-Item -Path "tempcli/uipathcli-windows-amd64/*" -Destination "copa/uipcli" -Recurse -Force
 
-    - name: 🔍 Vérifie présence de project.json
+    - name: 📂 Créer dossier ./copa/output
       shell: powershell
-      run: Get-ChildItem -Recurse -Filter project.json
-
-    - name: 📂 Créer dossier ./output
-      shell: powershell
-      run: mkdir output
+      run: New-Item -ItemType Directory -Force -Path "./copa/output"
 
     - name: 📦 Pack UiPath Project
       shell: powershell
-      run: ./uipath/uipath.exe project pack --input-folder ./Copa --output-folder ./output --debug
+      run: ./copa/uipcli/uipath.exe project pack --input-folder ./copa --output-folder ./copa/output --debug
 
-    - name: 📁 Afficher le contenu du dossier ./output (vérification)
+    - name: 📁 Vérifier contenu du dossier ./copa/output
       shell: powershell
       run: |
-        if (Test-Path "./output") {
-          Get-ChildItem ./output -Recurse
-        } else {
-          Write-Host "⚠️ Le dossier ./output n'existe pas. Le pack a échoué."
+        if ((Get-ChildItem ./copa/output/*.nupkg -ErrorAction SilentlyContinue).Count -eq 0) {
+          Write-Error "❌ Aucun package généré dans ./copa/output"
           exit 1
+        } else {
+          Write-Host "✅ Package généré avec succès"
+          Get-ChildItem ./copa/output
         }
 
-    - name: ☁️ Upload Package as Artifact
-      if: success()
+    - name: ☁️ Upload du package comme artefact
       uses: actions/upload-artifact@v4
       with:
         name: uipath-package
-        path: ./output/*.nupkg
+        path: ./copa/output/*.nupkg
 
-    - name: 🔐 Authenticate to UiPath Orchestrator
+    - name: 🔐 Authentification à Orchestrator
       shell: cmd
       run: |
-        .\uipcli\uipath.exe login ^
+        .\copa\uipcli\uipath.exe login ^
           --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
           --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
           --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
           --tenant "${{ secrets.UIPATH_TENANT }}" ^
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
-    - name: 🚀 Push Package to Orchestrator
+    - name: 🚀 Déploiement du package vers Orchestrator
       shell: powershell
-      run: ./uipcli/uipath.exe push ./output/*.nupkg
+      run: ./copa/uipcli/uipath.exe push ./copa/output/*.nupkg
