@@ -24,7 +24,7 @@ jobs:
         Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipcli.zip"
         Expand-Archive -Path "uipcli.zip" -DestinationPath "tempcli"
         New-Item -ItemType Directory -Path "copa/uipcli" -Force
-        Copy-Item -Path "tempcli/uipathcli-windows-amd64/*" -Destination "copa/uipcli" -Recurse -Force
+        Copy-Item -Path "tempcli/*" -Destination "copa/uipcli" -Recurse -Force
 
     - name: 📂 Créer dossier ./copa/output
       shell: powershell
