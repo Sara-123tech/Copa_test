@@ -21,11 +21,14 @@ jobs:
       run: |
         nuget install UiPath.CLI.Windows -Source "https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json" -OutputDirectory uipcli
 
-    - name: 📦 Extraire le .nupkg
+    - name: 📦 Extraire le .nupkg (en renommant .zip)
       shell: powershell
       run: |
-        $packagePath = Get-ChildItem -Path ./uipcli -Recurse -Filter *.nupkg | Select-Object -First 1
-        Expand-Archive -Path $packagePath.FullName -DestinationPath ./uipcli/cli -Force
+          $nupkg = Get-ChildItem -Path ./uipcli -Recurse -Filter *.nupkg | Select-Object -First 1
+          $zipPath = "$($nupkg.DirectoryName)\uipcli_temp.zip"
+          Copy-Item $nupkg.FullName -Destination $zipPath -Force
+          Expand-Archive -Path $zipPath -DestinationPath ./uipcli/cli -Force
+
 
     - name: 📂 Créer dossier ./output
       run: mkdir output
