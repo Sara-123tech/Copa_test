@@ -53,7 +53,8 @@ jobs:
 
     - name: 📦 Pack UiPath Project
       shell: powershell
-      run: ./uipcli/uipath.exe project pack --input-folder ./copa --output-folder ./output --debug
+      run: ./uipcli/uipath.exe automation project pack --input-folder ./copa --output-folder ./output
+
 
 
     - name: 📁 Vérifier contenu du dossier ./output
