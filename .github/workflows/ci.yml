@@ -14,16 +14,12 @@ jobs:
     - name: 📦 Checkout code
       uses: actions/checkout@v4
 
-    - name: 📥 Télécharger UiPath CLI (.nupkg)
+    - name: 📥 Télécharger UiPath CLI depuis GitHub
       run: |
-        Invoke-WebRequest -Uri "https://uipath.pkgs.visualstudio.com/Public.Feeds/_apis/packaging/feeds/UiPath-Official/nuget/packages/UiPath.CLI.Windows/versions/25.4.0/content" -OutFile uipcli.nupkg
+        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipathcli.zip"
+        Expand-Archive -Path "uipathcli.zip" -DestinationPath "uipcli" -Force
       shell: powershell
 
-    - name: 📦 Extraire contenu de uipcli.nupkg
-      run: |
-        mkdir uipcli
-        Expand-Archive -Path uipcli.nupkg -DestinationPath uipcli
-      shell: powershell
 
     - name: 📁 Créer dossier ./output
       run: mkdir output
