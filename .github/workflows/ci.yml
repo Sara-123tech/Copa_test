@@ -14,53 +14,55 @@ jobs:
     - name: 📦 Checkout code
       uses: actions/checkout@v4
 
-    - name: 🧭 Afficher l'arborescence initiale
-      shell: powershell
-      run: Get-ChildItem -Recurse
-
-    - name: 🔧 Télécharger et déplacer UiPath CLI dans ./copa/uipcli
+    - name: 📂 Créer dossiers nécessaires
       shell: powershell
       run: |
-        Invoke-WebRequest -Uri "https://github.com/UiPath/uipathcli/releases/latest/download/uipathcli-windows-amd64.zip" -OutFile "uipcli.zip"
-        Expand-Archive -Path "uipcli.zip" -DestinationPath "tempcli"
-        New-Item -ItemType Directory -Path "copa/uipcli" -Force
-        Copy-Item -Path "tempcli/*" -Destination "copa/uipcli" -Recurse -Force
+        mkdir copa\uipcli
+        mkdir copa\output
 
-    - name: 📂 Créer dossier ./copa/output
+    - name: 🔧 Télécharger l'ancien UiPath CLI depuis MyGet
       shell: powershell
-      run: New-Item -ItemType Directory -Force -Path "./copa/output"
+      run: |
+        nuget install UiPath.CLI.Windows -Version 1.0.7985.19721 `
+          -OutputDirectory "./copa/uipcli" `
+          -Source "https://www.myget.org/F/uipath-dev/api/v3/index.json"
 
     - name: 📦 Pack UiPath Project
       shell: powershell
-      run: ./copa/uipcli/uipath.exe project pack --input-folder ./copa --output-folder ./copa/output --debug
+      run: |
+        ./copa/uipcli/UiPath.CLI.Windows.1.0.7985.19721/tools/uipcli.exe project pack `
+          --input-folder ./copa `
+          --output-folder ./copa/output `
+          --debug
 
-    - name: 📁 Vérifier contenu du dossier ./copa/output
+    - name: 📁 Vérifie que le package a bien été généré
       shell: powershell
       run: |
         if ((Get-ChildItem ./copa/output/*.nupkg -ErrorAction SilentlyContinue).Count -eq 0) {
           Write-Error "❌ Aucun package généré dans ./copa/output"
-          exit 1
         } else {
           Write-Host "✅ Package généré avec succès"
-          Get-ChildItem ./copa/output
         }
 
-    - name: ☁️ Upload du package comme artefact
+    - name: ☁️ Upload Package as Artifact
+      if: success()
       uses: actions/upload-artifact@v4
       with:
         name: uipath-package
         path: ./copa/output/*.nupkg
 
-    - name: 🔐 Authentification à Orchestrator
-      shell: cmd
+    - name: 🔐 Authentification Orchestrator
+      shell: powershell
       run: |
-        .\copa\uipcli\uipath.exe login ^
-          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" ^
-          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" ^
-          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" ^
-          --tenant "${{ secrets.UIPATH_TENANT }}" ^
+        ./copa/uipcli/UiPath.CLI.Windows.1.0.7985.19721/tools/uipcli.exe login `
+          --client-id "${{ secrets.UIPATH_CLIENT_ID }}" `
+          --client-secret "${{ secrets.UIPATH_CLIENT_SECRET }}" `
+          --account-name "${{ secrets.UIPATH_ACCOUNT_LOGICAL_NAME }}" `
+          --tenant "${{ secrets.UIPATH_TENANT }}" `
           --url "${{ secrets.UIPATH_ORCHESTRATOR_URL }}"
 
-    - name: 🚀 Déploiement du package vers Orchestrator
+    - name: 🚀 Push Package vers Orchestrator
       shell: powershell
-      run: ./copa/uipcli/uipath.exe push ./copa/output/*.nupkg
+      run: |
+        ./copa/uipcli/UiPath.CLI.Windows.1.0.7985.19721/tools/uipcli.exe push `
+          ./copa/output/*.nupkg
