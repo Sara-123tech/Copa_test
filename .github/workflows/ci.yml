@@ -25,9 +25,11 @@ jobs:
       run: mkdir output
       shell: powershell
 
-    - name: 📦 Pack du projet UiPath
-      run: ./uipcli/tools/uipcli.exe automation project pack --input-folder ./copa --output-folder ./output --debug
+    - name: 📦 Pack UiPath Project
       shell: powershell
+      run: |
+        ./uipcli/uipcli.exe automation project pack --input-folder ./copa --output-folder ./output --debug
+  
 
     - name: 📁 Vérifier contenu du dossier ./output
       run: |
