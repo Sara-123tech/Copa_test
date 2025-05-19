@@ -32,25 +32,27 @@ jobs:
         run: |
           $exePath = Get-ChildItem -Recurse -Path "tempcli" -Filter "uipath.exe" | Select-Object -First 1
           if ($exePath -eq $null) {
-          Write-Error "❌ uipath.exe introuvable après extraction"
-            }
-          else {
+            Write-Error "❌ uipath.exe introuvable après extraction"
+            exit 1
+          }
           Copy-Item -Path $exePath.FullName -Destination "copa/uipcli/uipath.exe"
-           Write-Host "✅ uipath.exe copié dans copa/uipcli"
-             }
+          Write-Host "✅ uipath.exe copié dans copa/uipcli"
 
       - name: Restore dependencies
         run: |
-          ./copa/uipcli/uipath.exe packages restore --input-folder ./copa
+          ./copa/uipcli/uipath.exe packages restore --path ./copa
 
       - name: Pack Project
         run: |
-          ./copa/uipcli/uipath.exe automation project pack --path ./copa --output ./copa/output --debug
+          ./copa/uipcli/uipath.exe pack --project ./copa --output ./copa/output --debug
 
       - name: Check .nupkg output
         run: |
-          if ((Get-ChildItem ./copa/output/*.nupkg -ErrorAction SilentlyContinue).Count -eq 0) {
+          $nupkgFiles = Get-ChildItem ./copa/output/*.nupkg -ErrorAction SilentlyContinue
+          if ($nupkgFiles.Count -eq 0) {
             Write-Error "❌ Aucun package généré dans ./copa/output"
+            Get-ChildItem ./copa/output -Recurse | ForEach-Object { Write-Host $_.FullName }
+            exit 1
           } else {
-            Write-Host "✅ Package UiPath généré avec succès"
+            Write-Host "✅ Package UiPath généré avec succès: $($nupkgFiles.FullName)"
           }
